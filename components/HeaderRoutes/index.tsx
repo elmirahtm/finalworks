@@ -4,14 +4,14 @@ import React from 'react'
 
 const HeaderRoutes = () => {
 const basliq=[
-  {id:1, to:"/əsassəhifə"  , title:"Əsas Səhifə"},
-  {id:2, to:"/təmir"  , title:"Təmir"},
-    {id:3, to:"/quraşdırma"  , title:"Quraşdırma"},
-    {id:4, to:"/ustasifarişi"  , title:"Usta Sifarişi"},
-    {id:5, to:"/çatdırılma"  , title:"Çatdırılma"},
-    {id:6, to:"/zəmanət"  , title:"Zəmanət"},
-    {id:7, to:"/haqqımızda"  , title:"Haqqımızda"},
-    {id:8, to:"/əlaqə"  , title:"Əlaqə"}
+  {id:1, to:"/mainpage"  , title:"Əsas Səhifə"},
+  {id:2, to:"/repair"  , title:"Təmir"},
+    {id:3, to:"/install"  , title:"Quraşdırma"},
+    {id:4, to:"/masterorder"  , title:"Usta Sifarişi"},
+    {id:5, to:"/delivery"  , title:"Çatdırılma"},
+    {id:6, to:"/reference"  , title:"Zəmanət"},
+    {id:7, to:"/about"  , title:"Haqqımızda"},
+    {id:8, to:"/connect"  , title:"Əlaqə"}
 ]
 
   return (
