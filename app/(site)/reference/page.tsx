@@ -2,7 +2,9 @@ import React from 'react'
 
 const  Zəmanət = () => {
   return (
-    <div> Zəmanət</div>
+    <div> 
+      
+    </div>
   )
 }
 

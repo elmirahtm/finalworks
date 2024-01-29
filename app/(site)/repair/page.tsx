@@ -2,7 +2,9 @@ import React from 'react'
 
 const Təmir = () => {
   return (
-    <div>Təmir</div>
+    <div>
+      
+    </div>
   )
 }
 

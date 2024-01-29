@@ -2,7 +2,9 @@ import React from 'react'
 
 const Ustasifarişi = () => {
   return (
-    <div>Ustasifarişi</div>
+    <div>
+      
+    </div>
   )
 }
 

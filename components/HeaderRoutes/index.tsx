@@ -4,8 +4,9 @@ import React from 'react'
 
 const HeaderRoutes = () => {
 const basliq=[
-  {id:1, to:"/mainpage"  , title:"Əsas Səhifə"},
-  {id:2, to:"/repair"  , title:"Təmir"},
+  
+   {id:1, to:"/mainpage"  , title:"Əsas Səhifə"},
+   {id:2, to:"/repair"  , title:"Təmir"},
     {id:3, to:"/install"  , title:"Quraşdırma"},
     {id:4, to:"/masterorder"  , title:"Usta Sifarişi"},
     {id:5, to:"/delivery"  , title:"Çatdırılma"},

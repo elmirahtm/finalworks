@@ -2,7 +2,9 @@ import React from 'react'
 
 const Çatdırılma = () => {
   return (
-    <div>Çatdırılma</div>
+    <div>
+      
+    </div>
   )
 }
 
