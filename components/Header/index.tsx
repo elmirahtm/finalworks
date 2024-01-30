@@ -12,13 +12,13 @@ import { BsTelephone } from "react-icons/bs";
 const Header = () => {
   return (
  <div>
-   <div className='flex justify-around bg-gray-800 text-cyan-50 p-4 '>
-  <div className='flex gap-14'>
+   <div className='flex justify-around bg-gray-800 text-cyan-50 p-4  max-sm:flex-wrap max-sm:flex-col  '>
+  <div className='flex gap-14  max-sm:justify-center'>
     <h4>Servis məntəqələrimiz</h4>
     <h4>Tez-tez verilən suallar</h4>
  </div>
 
-  <div className='flex gap-7' >
+  <div className='flex gap-7 max-sm:justify-center' >
   <div className='flex gap-3'>
   <span className='mt-1'><HiOutlineMail /></span>
    <h4>office@solitonservice.com</h4>
@@ -37,7 +37,7 @@ const Header = () => {
     </div>
 
 
-<div className='flex justify-evenly items-center bg-slate-100 m-auto '>
+<div className='flex justify-evenly items-center bg-slate-100 m-auto max-sm:flex-wrap max-sm:text-center '>
   <div ><span><Image src="/logo.png" alt='logo' width={174} height={60}/></span>  </div>
 
 <div className='flex justify-center  text-sky-700 gap-14'>

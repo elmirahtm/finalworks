@@ -1,9 +1,14 @@
+import BodyList from '@/components/BodyList'
+import BodyList2 from '@/components/BodyList2'
 import React from 'react'
 
-const page = () => {
+const Home = () => {
   return (
-    <div>page</div>
+    <div>
+       <BodyList/>
+      <BodyList2/>
+    </div>
   )
 }
 
-export default page
+export default Home

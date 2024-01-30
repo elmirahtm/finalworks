@@ -17,7 +17,7 @@ const basliq=[
 
   return (
    <div>
- <div className=' flex justify-evenly p-4 bg-sky-700 text-slate-50'>
+ <div className=' flex justify-evenly p-4 bg-sky-700 text-slate-50 max-sm:block max-sm:text-center '>
         {
             basliq.map(({id,to,title})=>{
                 return(
