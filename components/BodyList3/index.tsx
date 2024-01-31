@@ -4,7 +4,7 @@ import React from 'react'
 const BodyList3 = () => {
   return (
     <div>
-<div className='max-sm:mt-96'>
+<div className='max-sm:mt-40'>
 <div className='bg-cyan-900 w-full h-[42rem] max-sm:h-[21rem]'>
 
 <h1 className=' text-center text-2xl text-slate-50 p-4 '>Servis Məntəqələrimiz</h1>
