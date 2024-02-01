@@ -68,7 +68,7 @@ const BodyList2 = () => {
         </div>
         {/*  */}
         {/*  */}
-        <div className='bg-[url("/bg.png")] w-full h-[65rem] mb-10 max-sm:h-[150rem]'>
+        <div className='bg-[url("/bg.png")] w-full h-[65rem] mb-10 max-sm:h-[170rem]'>
           <div>
             <div>
               <div className="">
