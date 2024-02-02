@@ -4,23 +4,22 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const data=[
-    {id:1,img:"/usta.png",basliq:"Televizor quraşdırılması"},
-    {id:2,img:"/usta2.png",basliq:" Paltaryuyan təmiri"},
-    {id:3,img:"/usta3.png",basliq:" Soyuducu quraşdırılması"},
-    {id:4,img:"/usta4.png",basliq:" Televizor təmiri"},
-    {id:5,img:"/usta5.png",basliq:" Kondisioner təmiri"},
-    {id:6,img:"/usta6.png",basliq:" Qabyuyan təmiri"},
-    {id:7,img:"/usta7.png",basliq:" Kondisioner təmiri"},
-    {id:8,img:"/usta8.png",basliq:" Kondisioner mator təmiri "}
+    {id:1,img:"/img14.png"},
+    {id:2,img:"/img15.png"},
+    {id:3,img:"/img16.png"},
+    {id:4,img:"/img17.png"},
+    {id:5,img:"/img18.png"},
+    {id:6,img:"/img14.png"}
+ 
 ]
-function Carousel2 (){
+function Carousel3 (){
     
     const settings = {
         dots: true,
         infinite: false,
         speed: 500,
-        slidesToShow: 3,
-        slidesToScroll:3,
+        slidesToShow: 4,
+        slidesToScroll:4,
         initialSlide: 0,
         responsive: [
           {
@@ -51,9 +50,9 @@ function Carousel2 (){
       };
   return (
    <div>
-    <h2 className='text-2xl font-bold mt-10 ml-10 max-sm:text-center'>Gördüyümüz işlər</h2>
+    <h2 className='text-2xl font-bold text-center max-sm:mt-10'>Müştəri rəyləri</h2>
      <div  className=' w-3/4 m-auto'>
-<div className='mt-20 bg-slate-300  p-7 ml-6 text-center'>
+<div className='mt-20 bg-slate-200  p-7 ml-6 text-center'>
 <Slider {...settings}>
 {
     data.map((d)=>{
@@ -61,11 +60,9 @@ function Carousel2 (){
             <div key={d.id} className="">
                <div>
                  <div className=''>
-                <img className='w-80 h-96' src={d.img} alt="" />
+                <img className='w-72 h-96' src={d.img} alt="" />
                 </div>
-                <div>
-                    <p className='bg-teal-950 text-warning-50 w-80 p-4'>{d.basliq}</p>
-                </div>
+              
                </div>
             </div>
         )
@@ -82,4 +79,4 @@ function Carousel2 (){
   )
 }
 
-export default Carousel2
+export default Carousel3
