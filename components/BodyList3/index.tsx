@@ -242,7 +242,7 @@ const BodyList3 = () => {
                   </div>
                 </form>
                 <div>
-                  <Link href="/masterorder">
+                  <Link href="/order">
                     {" "}
                     <div className="bg-blue-600 text-slate-50 rounded-lg w-52 h-12 text-center p-2 mt-7">
                       Sifariş et
