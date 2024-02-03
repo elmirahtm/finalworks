@@ -6,9 +6,7 @@ import { Iprops } from '@/interface'
 const layout = ({children}:Iprops) => {
   return (
     <div>
-       <Header/>
-      <HeaderRoutes/> 
-     
+    
 
 {children}
     </div>

@@ -68,13 +68,14 @@ const BodyList2 = () => {
         </div>
         {/*  */}
         {/*  */}
-        <div className='bg-[url("/bg.png")] w-full h-[65rem] mb-10 max-sm:h-[170rem]'>
+        <div className='bg-[url("/bg.png")] w-full h-[65rem] mb-10 max-sm:h-[180rem]'>
           <div>
             <div>
               <div className="">
                 {/* <p className=" bg-red-600  w-16 h-2  "></p> */}
-                <h5 className="mt-12 mb-10 relative -ml-8 text-center text-2xl font-bold ">
-                  Təmir
+                <h5 className="pt-12  mb-8 relative -ml-8 text-center text-2xl font-bold ">
+                  {" "}
+                  Təmir{" "}
                 </h5>
                 {/* <p className="  bg-red-600  w-16 h-2 absolute right-96 -mt-12  mr-56 "></p> */}
               </div>
@@ -87,47 +88,53 @@ const BodyList2 = () => {
                   <div>
                     <Card />
                     <div>
-                  <Link
-                    className=" flex  justify-center items-center mt-10 m-auto border-2 rounded-md border-sky-700 w-40 h-10 p-1  text-sky-700"
-                    href={"#"}
-                  >
-                    Hamisina bax <FaArrowRight className="pl-1" />
-                  </Link>
-                </div>
+                      <Link
+                        className=" flex  justify-center items-center mt-10 m-auto border-2 rounded-md border-sky-700 w-40 h-10 p-1  text-sky-700"
+                        href={"#"}
+                      >
+                        Hamisina bax <FaArrowRight className="pl-1" />
+                      </Link>
+                    </div>
                   </div>
 
                   <span className=" max-sm:-mt-6">
                     <IoIosArrowForward className="mb-6" />
                   </span>
                 </span>
-               
               </div>
             </div>
-            <span className=" flex justify-center items-center gap-10 flex-wrap ">
-                  <span className=" max-sm:-mt-6">
-                    <IoIosArrowBack className="mt-5" />
-                  </span>
-                  <div>
-                    <Card2 />
-                    <div>
-                  <Link
-                    className=" flex  justify-center items-center mt-10 m-auto border-2 rounded-md border-sky-700 w-40 h-10 p-1  text-sky-700"
-                    href={"#"}
-                  >
-                    Hamisina bax <FaArrowRight className="pl-1" />
-                  </Link>
-                </div>
-                  </div>
 
-                  <span className=" max-sm:-mt-6">
-                    <IoIosArrowForward  />
-                  </span>
+            <div>
+              <h5 className="pt-12  mb-8 relative -ml-3 text-center text-2xl font-bold ">
+              
+                Quraşdırılma
+              </h5>
+
+              <span className=" flex justify-center items-center gap-10 flex-wrap ">
+                <span className=" max-sm:-mt-6">
+                  <IoIosArrowBack className="mt-5" />
                 </span>
-                
+                <div>
+                  <Card2 />
+                  <div>
+                    <Link
+                      className=" flex  justify-center items-center mt-10 m-auto border-2 rounded-md border-sky-700 w-40 h-10 p-1  text-sky-700"
+                      href={"#"}
+                    >
+                      Hamisina bax <FaArrowRight className="pl-1" />
+                    </Link>
+                  </div>
+                </div>
+
+                <span className=" max-sm:-mt-6">
+                  <IoIosArrowForward />
+                </span>
+              </span>
+            </div>
           </div>
         </div>
 
-         <div className="flex justify-center m-6 gap-28  max-sm:gap-8 ">
+        <div className="flex justify-center m-6 gap-28  mt-7 mb-14  max-sm:gap-8  ">
           <span>
             <Image
               className="bg-slate-300 shadow-md rounded-md p-3 w-32 h-16"
@@ -164,7 +171,7 @@ const BodyList2 = () => {
               height={65}
             />
           </span>
-        </div> 
+        </div>
       </div>
     </div>
   );

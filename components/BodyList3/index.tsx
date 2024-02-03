@@ -194,7 +194,7 @@ const BodyList3 = () => {
       </div>
 
       <div>
-        <div className="bg-[url('/image.jpg')] bg-no-repeat   w-full h-[45rem] mt-8 ">
+        <div className="bg-[url('/image.jpg')] bg-no-repeat ml-5  w-full h-[45rem] mt-8  ">
           <div className="flex max-sm:block  ">
             <div className="bg-[url('/sifarisbg.jpg')] bg-no-repeat  w-[145rem] h-[29rem] ml-64 mt-10 max-sm:ml-0 max-sm:mb-0  ">
               <div className="ml-4 mt-7 ">
