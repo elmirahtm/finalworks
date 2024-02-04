@@ -6,7 +6,7 @@ import { FaArrowLeftLong } from "react-icons/fa6";
 
 const Ustasifarişi = () => {
   return (
-  <div className="flex">
+  <div className="flex max-sm:block max-sm:-mt-20">
  <div className='bg-[url("/goy.jpg")] bg-no-repeat w-[40rem] h-[44.2rem]'>
         <Link href="/">
           <div className="flex text-white gap-4 rounded-md ml-36 mt-20">
