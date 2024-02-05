@@ -47,7 +47,6 @@ const Çatdırılma = () => {
                 </div>
 </div>
       </div>
-
       <div className=" mb-4  bg-slate-50 -mt-52 ">
         <div className="flex justify-evenly items-center -mt-32 m-auto max-sm:flex-wrap max-sm:text-center p-8 
         max-sm:mt-40
@@ -82,40 +81,40 @@ const Çatdırılma = () => {
             </div>
             <div className="flex gap-8">
               <div className="">
-                <span className="flex gap-2 mb-4">
+               <Link href={"/"}> <span className="flex gap-2 mb-4">
                   <FaAnglesRight className="mt-1 text-blue-500" />
                   <h3>Əsas səhifə </h3>
-                </span>
-                <span className="flex gap-2 mb-4">
+                </span></Link>
+               <Link href={"/repair"}> <span className="flex gap-2 mb-4">
                   <FaAnglesRight className="mt-1  text-blue-500" />
                   <h3>Təmir </h3>
-                </span>
-                <span className="flex gap-2 mb-4">
+                </span></Link>
+               <Link href={"/install"}> <span className="flex gap-2 mb-4">
                   <FaAnglesRight className="mt-1  text-blue-500" />
                   <h3>Quraşdırma </h3>
-                </span>
-                <span className="flex gap-2">
+                </span></Link>
+              <Link href={"/masterorder"}>  <span className="flex gap-2">
                   <FaAnglesRight className="mt-1  text-blue-500" />
                   <h3>Usta sifarişi </h3>
-                </span>
+                </span></Link>
               </div>
               <div>
-                <span className="flex gap-2 mb-4">
+              <Link href={"/delivery"}>  <span className="flex gap-2 mb-4">
                   <FaAnglesRight className="mt-1  text-blue-500" />
                   <h3>Çatdırılma </h3>
-                </span>
-                <span className="flex gap-2 mb-4">
+                </span></Link>
+             <Link href={"/reference"}>   <span className="flex gap-2 mb-4">
                   <FaAnglesRight className="mt-1  text-blue-500" />
                   <h3>Zəmanət </h3>
-                </span>
-                <span className="flex gap-2 mb-4">
+                </span></Link>
+               <Link href={"/about"}> <span className="flex gap-2 mb-4">
                   <FaAnglesRight className="mt-1  text-blue-500" />
                   <h3>Haqqımızda </h3>
-                </span>
-                <span className="flex gap-2">
+                </span></Link>
+               <Link href={"/connect"}> <span className="flex gap-2">
                   <FaAnglesRight className="mt-1  text-blue-500" />
                   <h3>Əlaqə </h3>
-                </span>
+                </span></Link>
               </div>
             </div>
           </div>
@@ -195,6 +194,7 @@ const Çatdırılma = () => {
             </div>
           </div>
         </div>
+
         <div className="border w-[1300px] m-auto mt-6">
         </div>
       <div className="flex justify-between mt-3">

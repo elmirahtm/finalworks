@@ -45,9 +45,9 @@ const Header = () => {
 
       <div className="flex justify-evenly items-center bg-slate-100 m-auto max-sm:flex-wrap max-sm:text-center ">
         <div>
-          <span>
+          <Link href={"/"}><span>
             <Image src="/logo.png" alt="logo" width={174} height={60} />
-          </span>{" "}
+          </span>{" "}</Link>
         </div>
 
         <div className="flex justify-center  text-sky-700 gap-14">
