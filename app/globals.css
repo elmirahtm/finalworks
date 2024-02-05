@@ -8,10 +8,8 @@
     list-style-type: none;
     box-sizing: border-box;
     user-select: none;
+    
 }
 body{
     overflow-x: hidden;
 }
-/* .yazi{
-    padding: 0 60px;
-} */

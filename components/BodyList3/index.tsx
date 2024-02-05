@@ -34,7 +34,7 @@ const BodyList3 = () => {
       </div>
 
       <div
-        className='bg-[url("/bg2.png")] w-full h-[45rem] flex justify-center items-start max-sm:h-[60rem]
+        className='bg-[url("/bg2.png")] w-full h-[45rem] flex justify-center items-start max-sm:h-[65rem]
         p-20 '
       >
         <div className="flex justify-center items-center max-sm:flex-wrap max-sm:text-center max-sm:text-sm  ">
@@ -51,7 +51,7 @@ const BodyList3 = () => {
           </div>
           <div className="ml-6">
             <h1 className="text-2xl font-bold">"Lider Service" haqqında</h1>
-            <p className="w-[44rem] max-sm:w-80 max-sm:m-auto">
+            <p className="w-[44rem] max-sm:w-80 max-sm:text-justify max-sm:ml-8">
               "Lider Service" təcrübəli mutəxəssislər və konsultantlar
               komandasıdır ki, hər bir texniki problemdə sizə köməklik
               göstərməyə hazırdılar. Aldığınız malda istənilən nasazlıq
@@ -63,10 +63,10 @@ const BodyList3 = () => {
               problemlər servis tərəfindən pulsuz həll olunur.{" "}
             </p>
             <span>
-              <div className="flex ">
-                <span className="mr-7">
+              <div className="flex max-sm:mt-8 ">
+                <span className="mr-7 max-sm:hidden">
                   <Image
-                    className="bg-slate-300 p-2 w-10 h-10 rounded-xl mt-3 "
+                    className="bg-slate-300  p-5 w-10 h-10 rounded-xl mt-3 "
                     src="/setting.png"
                     alt="setting"
                     width={36}
@@ -74,10 +74,10 @@ const BodyList3 = () => {
                   />
                 </span>
                 <div className="mt-3 mb-2">
-                  <h4 className="text-xl font-bold max-sm:m-auto max-sm:ml-10">
+                  <h4 className="text-xl font-bold max-sm:m-auto  ">
                     Ehtiyyat hissələri və aksesuarlar{" "}
                   </h4>
-                  <p className="w-[30rem] max-sm:w-96 max-sm:m-auto max-sm:ml-10">
+                  <p className="w-[22rem] max-sm:w-96 max-sm:text-justify max-sm:ml-8">
                     Bilavasitə servisimiz tərəfindən əldə olunan orijinal
                     detallar tam əminlik yaradır. Çünki, bu detallar alınan
                     məhsula tam uyğundur və istənilən keyfiyyəti təmin edə
@@ -86,8 +86,8 @@ const BodyList3 = () => {
                   </p>
                 </div>
               </div>
-              <div className="flex ">
-                <span className="mr-7">
+              <div className="flex max-sm:mt-8 ">
+                <span className="mr-7 max-sm:hidden">
                   <Image
                     className="bg-slate-300 p-2 w-10 h-10 rounded-xl mt-3  "
                     src="/tamamlan.png"
@@ -96,11 +96,11 @@ const BodyList3 = () => {
                     height={36}
                   />
                 </span>
-                <div>
-                  <h4 className="text-xl font-bold max-sm:m-auto">
+                <div className="">
+                  <h4 className="text-xl font-bold max-sm:m-auto max-sm:-ml-11">
                     Zəmanət qüvvəsi
                   </h4>
-                  <p className="w-[30rem] max-sm:w-[35rem] max-sm:m-auto">
+                  <p className="w-[30rem] max-sm:w-[22rem] max-sm:text-justify max-sm:ml-8 ">
                     Soliton mağazalar şəbəkəsi öz məhsullarına yüksək keyfiyyət
                     verir və bütün məhsullarına 1 ildən 3 ilədək zəmanət təklif
                     edir. Biz sizə pulsuz çatdırılma və quraşdırılmanı təklif
@@ -313,8 +313,8 @@ const BodyList3 = () => {
           </div>
 
           <div>
-            <div className="max-sm:mt-10">
-              <h1 className="mb-4 text-2xl font-bold ">Saytın xəritəsi</h1>
+          <div className="max-sm:mt-10">
+              <h1 className="mb-4 ml text-2xl font-bold max-sm:-ml-5 ">Saytın xəritəsi</h1>
             </div>
             <div className="flex gap-8">
               <div className="">

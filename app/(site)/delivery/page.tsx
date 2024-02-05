@@ -47,6 +47,7 @@ const Çatdırılma = () => {
                 </div>
 </div>
       </div>
+      
       <div className=" mb-4  bg-slate-50 -mt-52 ">
         <div className="flex justify-evenly items-center -mt-32 m-auto max-sm:flex-wrap max-sm:text-center p-8 
         max-sm:mt-40
@@ -76,8 +77,8 @@ const Çatdırılma = () => {
           </div>
 
           <div>
-            <div className="max-sm:mt-10">
-              <h1 className="mb-4 text-2xl font-bold ">Saytın xəritəsi</h1>
+          <div className="max-sm:mt-10">
+              <h1 className="mb-4 ml text-2xl font-bold max-sm:-ml-5 ">Saytın xəritəsi</h1>
             </div>
             <div className="flex gap-8">
               <div className="">

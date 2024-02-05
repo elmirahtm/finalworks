@@ -93,7 +93,7 @@ const Təmir = () => {
 
           <div>
             <div className="max-sm:mt-10">
-              <h1 className="mb-4 text-2xl font-bold ">Saytın xəritəsi</h1>
+              <h1 className="mb-4 ml text-2xl font-bold max-sm:-ml-5 ">Saytın xəritəsi</h1>
             </div>
             <div className="flex gap-8">
               <div className="">

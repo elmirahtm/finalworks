@@ -18,7 +18,7 @@ const Quraşdırma = () => {
       <HeaderRoutes/> 
       <div className='bg-[url("/temirimage.png")] bg-no-repeat w-full h-[23rem]'>
 <div>
-  <h1 className='font-bold text-white text-2xl text-center pt-20'>Məişət Texnikalarının Təmiri</h1>
+  <h1 className='font-bold text-white text-2xl text-center pt-20'>Məişət Əşyalarının Quraşdırılması</h1>
 <div className='flex gap-1 text-white justify-center pt-3'>
 <Link  href="/">Əsas səhifə</Link>
 <p>/</p>
@@ -78,8 +78,8 @@ const Quraşdırma = () => {
           </div>
 
           <div>
-            <div className="max-sm:mt-10">
-              <h1 className="mb-4 text-2xl font-bold ">Saytın xəritəsi</h1>
+          <div className="max-sm:mt-10">
+              <h1 className="mb-4 ml text-2xl font-bold max-sm:-ml-5 ">Saytın xəritəsi</h1>
             </div>
             <div className="flex gap-8">
               <div className="">
