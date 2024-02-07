@@ -7,7 +7,7 @@ const Order = () => {
   return (
     <div>
           <div className="flex max-sm:block max-sm:-mt-20">
-      <div className='bg-[url("/goy.jpg")] bg-no-repeat w-[40rem] h-[44.2rem]'>
+      <div className='bg-[url("/goy.jpg")] bg-no-repeat w-[40rem] h-[49rem]'>
         <Link href="/">
           <div className="flex text-white gap-4 ml-36 mt-20">
             <span>
@@ -27,7 +27,7 @@ const Order = () => {
         </div>
       </div>
 
-      <div className="bg-slate-200  w-[60rem] h-[44.2rem] max-sm:-mt-52 max-sm:pt-4">
+      <div className="bg-slate-200  w-[69rem] h-[49rem] max-sm:-mt-52 max-sm:pt-4">
         <div className="text-center mt-52 ml-44 pt-20  bg-white w-[32rem] h-[20rem] max-sm:ml-16">
           <span>
             <Image

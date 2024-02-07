@@ -134,7 +134,7 @@ const BodyList2 = () => {
           </div>
         </div>
 
-        <div className="flex justify-center m-6 gap-28  mt-7 mb-14  max-sm:gap-8  ">
+        <div className="flex justify-center m-6 gap-28  mt-7 mb-14   max-sm:gap-8  ">
           <span>
             <Image
               className="bg-slate-300 shadow-md rounded-md p-3 w-32 h-16"

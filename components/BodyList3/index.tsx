@@ -175,7 +175,7 @@ const BodyList3 = () => {
                     <FaPlus />
                   </span>
                 </div>
-                <div className="flex gap-2 justify-between mb-2 border-2 rounded-md bg-white p-5 hover:scale-75 transition-all duration-500 ">
+                <div className="flex gap-2 justify-between mb-2 border-2 rounded-md bg-white p-5hover:scale-75 transition-all duration-500 ">
                   <p className="">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   </p>
