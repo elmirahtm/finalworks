@@ -90,7 +90,7 @@ const BodyList2 = () => {
                     <div>
                       <Link
                         className=" flex  justify-center items-center mt-10 m-auto border-2 rounded-md border-sky-700 w-40 h-10 p-1  text-sky-700"
-                        href={"#"}
+                        href={"/cards"}
                       >
                         Hamisina bax <FaArrowRight className="pl-1" />
                       </Link>
@@ -119,7 +119,7 @@ const BodyList2 = () => {
                   <div>
                     <Link
                       className=" flex  justify-center items-center mt-10 m-auto border-2 rounded-md border-sky-700 w-40 h-10 p-1  text-sky-700"
-                      href={"#"}
+                      href={"/cards"}
                     >
                       Hamisina bax <FaArrowRight className="pl-1" />
                     </Link>

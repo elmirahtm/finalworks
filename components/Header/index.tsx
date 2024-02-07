@@ -50,7 +50,7 @@ const Header = () => {
           </span>{" "}</Link>
         </div>
 
-        <div className="flex justify-center  text-sky-700 gap-14">
+        <div className="flex justify-center  text-sky-700 gap-14 max-sm:mt-4">
           <div>
             <div className="flex ">
               <span>

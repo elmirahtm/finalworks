@@ -108,7 +108,7 @@ const  Zəmanət = () => {
   </div>
 </div>
 
-<div className=" mb-4  bg-slate-100 -mt-40  ">
+<div className=" mb-4  bg-slate-50 -mt-52 ">
         <div className="flex justify-evenly items-center -mt-32 m-auto max-sm:flex-wrap max-sm:text-center p-8 
         max-sm:mt-40
         ">
@@ -258,7 +258,7 @@ const  Zəmanət = () => {
 
         <div className="border w-[1300px] m-auto mt-6">
         </div>
-      <div className="flex justify-between mt-3">
+      <div className="flex justify-between mt-3 max-sm:gap-2">
       <div className="ml-24">
           <p> © Lider Service - 2022. Müəllif hüquqları qorunur.</p>
         </div>

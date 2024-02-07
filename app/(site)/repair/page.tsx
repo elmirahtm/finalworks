@@ -92,7 +92,7 @@ const Təmir = () => {
           </div>
 
           <div>
-            <div className="max-sm:mt-10">
+          <div className="max-sm:mt-10">
               <h1 className="mb-4 ml text-2xl font-bold max-sm:-ml-5 ">Saytın xəritəsi</h1>
             </div>
             <div className="flex gap-8">
@@ -213,7 +213,7 @@ const Təmir = () => {
 
         <div className="border w-[1300px] m-auto mt-6">
         </div>
-      <div className="flex justify-between mt-3">
+      <div className="flex justify-between mt-3 max-sm:gap-2">
       <div className="ml-24">
           <p> © Lider Service - 2022. Müəllif hüquqları qorunur.</p>
         </div>

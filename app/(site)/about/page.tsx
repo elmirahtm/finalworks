@@ -318,7 +318,7 @@ const Haqqımızda = () => {
 
         <div className="border w-[1300px] m-auto mt-6">
         </div>
-      <div className="flex justify-between mt-3">
+      <div className="flex justify-between mt-3 max-sm:gap-2">
       <div className="ml-24">
           <p> © Lider Service - 2022. Müəllif hüquqları qorunur.</p>
         </div>
