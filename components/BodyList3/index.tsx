@@ -9,27 +9,17 @@ import { BsTelephone } from "react-icons/bs";
 import { HiOutlineMail } from "react-icons/hi";
 import { FaAnglesRight } from "react-icons/fa6";
 import { CgFacebook } from "react-icons/cg";
+import MapItem from "../MapItem";
 
 const BodyList3 = () => {
   return (
     <div>
       <div className="max-sm:mt-40">
-        <div className="bg-cyan-900 w-full h-[42rem] max-sm:h-[21rem]">
+        <div className="bg-cyan-900 py-4 w-full h-[42rem] max-sm:h-[21rem]">
           <h1 className=" text-center text-2xl text-slate-50 p-4 ">
             Servis Məntəqələrimiz
           </h1>
-          <span>
-            <span>
-              {" "}
-              <Image
-                className="m-auto"
-                src="/Screen.png"
-                alt="screen"
-                width={1270}
-                height={600}
-              />
-            </span>
-          </span>
+          <MapItem />
         </div>
       </div>
 
@@ -294,7 +284,7 @@ const BodyList3 = () => {
             </span>
             <div className="mt-5">
               <p className="w-[15rem]">
-                "Lider Service" 
+                "Lider Service"
                 təcrübəli mütəxəssislər və konsultantlar
                 komandasıdır
               </p>
@@ -313,42 +303,42 @@ const BodyList3 = () => {
           </div>
 
           <div>
-          <div className="max-sm:mt-10">
+            <div className="max-sm:mt-10">
               <h1 className="mb-4 ml text-2xl font-bold max-sm:-ml-5 ">Saytın xəritəsi</h1>
             </div>
             <div className="flex gap-8">
               <div className="">
-               <Link href={"/"}> <span className="flex gap-2 mb-4">
+                <Link href={"/"}> <span className="flex gap-2 mb-4">
                   <FaAnglesRight className="mt-1 text-blue-500" />
                   <h3>Əsas səhifə </h3>
                 </span></Link>
-               <Link href={"/repair"}> <span className="flex gap-2 mb-4">
+                <Link href={"/repair"}> <span className="flex gap-2 mb-4">
                   <FaAnglesRight className="mt-1  text-blue-500" />
                   <h3>Təmir </h3>
                 </span></Link>
-               <Link href={"/install"}> <span className="flex gap-2 mb-4">
+                <Link href={"/install"}> <span className="flex gap-2 mb-4">
                   <FaAnglesRight className="mt-1  text-blue-500" />
                   <h3>Quraşdırma </h3>
                 </span></Link>
-              <Link href={"/masterorder"}>  <span className="flex gap-2">
+                <Link href={"/masterorder"}>  <span className="flex gap-2">
                   <FaAnglesRight className="mt-1  text-blue-500" />
                   <h3>Usta sifarişi </h3>
                 </span></Link>
               </div>
               <div>
-              <Link href={"/delivery"}>  <span className="flex gap-2 mb-4">
+                <Link href={"/delivery"}>  <span className="flex gap-2 mb-4">
                   <FaAnglesRight className="mt-1  text-blue-500" />
                   <h3>Çatdırılma </h3>
                 </span></Link>
-             <Link href={"/reference"}>   <span className="flex gap-2 mb-4">
+                <Link href={"/reference"}>   <span className="flex gap-2 mb-4">
                   <FaAnglesRight className="mt-1  text-blue-500" />
                   <h3>Zəmanət </h3>
                 </span></Link>
-               <Link href={"/about"}> <span className="flex gap-2 mb-4">
+                <Link href={"/about"}> <span className="flex gap-2 mb-4">
                   <FaAnglesRight className="mt-1  text-blue-500" />
                   <h3>Haqqımızda </h3>
                 </span></Link>
-               <Link href={"/connect"}> <span className="flex gap-2">
+                <Link href={"/connect"}> <span className="flex gap-2">
                   <FaAnglesRight className="mt-1  text-blue-500" />
                   <h3>Əlaqə </h3>
                 </span></Link>
@@ -434,14 +424,14 @@ const BodyList3 = () => {
 
         <div className="border w-[1300px] m-auto mt-6">
         </div>
-      <div className="flex justify-between mt-3">
-      <div className="ml-24">
-          <p> © Lider Service - 2022. Müəllif hüquqları qorunur.</p>
+        <div className="flex justify-between mt-3">
+          <div className="ml-24">
+            <p> © Lider Service - 2022. Müəllif hüquqları qorunur.</p>
+          </div>
+          <div className="mr-24">
+            <p>Sayt Jedai tərəfindən yaradılmışdır.</p>
+          </div>
         </div>
-        <div className="mr-24">
-          <p>Sayt Jedai tərəfindən yaradılmışdır.</p>
-        </div>
-      </div>
       </div>
     </div>
   );
