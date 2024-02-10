@@ -1,5 +1,6 @@
 import Header from '@/components/Header'
 import HeaderRoutes from '@/components/HeaderRoutes'
+import MapItem from '@/components/MapItem'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
@@ -111,16 +112,8 @@ const Əlaqə = () => {
             Servis Məntəqələrimiz
           </h1>
           <span>
-            <span>
-              {" "}
-              <Image
-                className="m-auto"
-                src="/Screen.png"
-                alt="screen"
-                width={1270}
-                height={600}
-              />
-            </span>
+          <MapItem/>
+
           </span>
         </div>
       </div>

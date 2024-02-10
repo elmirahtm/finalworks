@@ -38,6 +38,7 @@ const Ustasifarişi = () => {
                         className=" mb-5 w-80 h-12 ml-12 p-4 rounded-md "
                         type="text"
                         placeholder="*Adınız və Soyadınız"
+                        required
                       />
                    </div>
                     
@@ -49,6 +50,7 @@ const Ustasifarişi = () => {
                         placeholder="*Telefon nömrəniz"
                         name=""
                         id=""
+                        required
                       />
                     
                     </div>
@@ -59,6 +61,7 @@ const Ustasifarişi = () => {
                         className="mb-5 w-80 h-12 ml-12 p-4 rounded-md "
                         type="text"
                         placeholder="Sifariş etmək istədiyiniz xidməti seçin"
+                        required
                       />
                   
                       
@@ -68,6 +71,7 @@ const Ustasifarişi = () => {
                         className=" w-80 h-12 ml-12 p-4 rounded-md"
                         type="text"
                         placeholder="Sifariş haqqında məlumat"
+                        required
                       />
                     </div>
                    
@@ -76,9 +80,8 @@ const Ustasifarişi = () => {
                 <div>
                   <Link href="/order">
                     {" "}
-                    <div className="bg-blue-600 text-slate-50 rounded-lg w-52 h-12 text-center p-2 ml-12 mt-7">
-                      Sifariş et
-                    </div>{" "}
+                   <input    className="bg-blue-600 text-slate-100 rounded-lg w-52 h-12 text-center p-2 ml-12 mt-7"
+                               type="submit" placeholder="Sifariş et" required   />
                   </Link>
                 </div>
               </div>
