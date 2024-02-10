@@ -114,16 +114,16 @@ const BodyList3 = () => {
         </div>
 
         <div>
-          <div className="bg-[url('/bg.png')] w-full h-[45rem] mt-8 mb-10 max-sm:mb-96">
+          {/* <div className="bg-[url('/bg.png')] bg-no-repeat w-full h-[45rem] mt-8 mb-10 max-sm:mb-96"> */}
 <div className="container m-auto">
-<div className="flex justify-between  max-sm:block max-sm:p-5 ">
+<div className="flex justify-center items-center gap-32 mb-40  max-sm:block max-sm:p-5 ">
               <div>
                 <span>
                   <Image
                     className=" relative mt-10 "
                     src="/usta7.png"
                     alt="usta7"
-                    width={343}
+                    width={345}
                     height={379}
                   />
                   <Image
@@ -136,18 +136,22 @@ const BodyList3 = () => {
                 </span>
               </div>
 
-              <div className="w-[60%]">
-                <div>
-                  <h1 className="font-bold text-3xl mb-5 mt-10  max-sm:pt-16 ">
+              <div className="w-[49%]">
+              <div className="">
+              <div>
+                  <h1 className="font-bold text-3xl mb-5 mt-10  max-sm:pt-28 max-sm:w-[30rem]">
                     Tez-tez verilən suallar
                   </h1>
                 </div>
-                <AccordionUsage />
+             <div>
+             <AccordionUsage />
+             </div>
+              </div>
 
               </div>
             </div>
 </div>
-          </div>
+          {/* </div> */}
         </div>
 
         <div>
@@ -155,8 +159,10 @@ const BodyList3 = () => {
         </div>
 
         <div>
-          <div className="bg-[url('/image.jpg')] bg-no-repeat ml-5  w-full h-[45rem] mt-8  ">
-            <div className="flex max-sm:block  ">
+          {/* <div className="bg-[url('/image.jpg')] bg-no-repeat ml-5  w-full h-[45rem] mt-8  "> */}
+         <div className="bg-sky-900 h-[45rem]">
+         <div className="container m-auto">
+           <div className="flex max-sm:block max-sm:-ml-20 ">
               <div className="bg-[url('/sifarisbg.jpg')] bg-no-repeat  w-[145rem] h-[29rem] ml-64 mt-10 max-sm:ml-0 max-sm:mb-0  ">
                 <div className="ml-4 mt-7 ">
                   <h1 className="text-3xl mb-5">Usta sifarişi</h1>
@@ -242,7 +248,9 @@ const BodyList3 = () => {
                 </span>
               </div>
             </div>
-          </div>
+           </div>
+         </div>
+          {/* </div> */}
         </div>
 
         <div className=" mb-4  bg-slate-50 -mt-52 ">

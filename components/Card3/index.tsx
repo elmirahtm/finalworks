@@ -12,10 +12,10 @@ const Card3 = () => {
          <h2 className="mt-5 text-xl ">Televizor</h2>
          <Image className="mt-9"  src="/televizor.png" alt="televizor" width={150} height={157} />
          <Link
-           className="w-[80px] h-[40px]  rounded-tl-[80px] rounded-tr-[80px] bg-blue-600 absolute bottom-0  flex justify-center items-center  "
+           className="w-[80px] h-[40px]  rounded-tl-[80px] rounded-tr-[80px] hover:bg-blue-600 bg-slate-100 absolute bottom-0  flex justify-center items-center  "
            href={"#"}
          >
-           <FaArrowRight className='text-slate-50' />
+           <FaArrowRight className='hover:text-slate-50 text-blue-600' />
          </Link>
        </div>
   

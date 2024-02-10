@@ -10,10 +10,10 @@ const Card = () => {
       <h2 className="mt-5 text-xl">KONDİSİONER</h2>
       <Image className="mt-5 " src="/kondisioner.png" alt="kondisioner" width={200} height={150} />
       <Link
-        className="w-[80px] h-[40px]  rounded-tl-[80px] rounded-tr-[80px] bg-blue-600 absolute bottom-0 flex justify-center items-center  "
+        className="w-[80px] h-[40px]  rounded-tl-[80px] rounded-tr-[80px] hover:bg-blue-600 bg-slate-50 absolute bottom-0 flex justify-center items-center  "
         href={"#"}
       >
-        <FaArrowRight className="text-slate-50" />
+        <FaArrowRight className="text-blue-600  hover:text-slate-100" />
       </Link>
     </div>
 

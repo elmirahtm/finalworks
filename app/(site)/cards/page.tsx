@@ -1,11 +1,20 @@
+import Header from '@/components/Header'
+import HeaderRoutes from '@/components/HeaderRoutes'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-import { FaArrowRight } from 'react-icons/fa'
+import { BsTelephone } from 'react-icons/bs'
+import { CgFacebook } from 'react-icons/cg'
+import { FaArrowRight, FaInstagram, FaWhatsapp } from 'react-icons/fa'
+import { FaAnglesRight } from 'react-icons/fa6'
+import { HiOutlineMail } from 'react-icons/hi'
+import { TbMapPin } from 'react-icons/tb'
 
 const Cards = () => {
   return (
     <div>
+      <Header/>
+      <HeaderRoutes/>
         <div className="flex justify-center  items-center gap-5 mt-14   max-sm:flex-wrap ">
 
       <div className=" bg-slate-200 w-60 h-64  flex flex-col relative items-center rounded-md">
@@ -48,10 +57,10 @@ const Cards = () => {
       <h2 className="mt-5 text-xl">KONDİSİONER</h2>
       <Image className="mt-5 " src="/kondisioner.png" alt="kondisioner" width={200} height={150} />
       <Link
-        className="w-[80px] h-[40px]  rounded-tl-[80px] rounded-tr-[80px] bg-blue-600 absolute bottom-0 flex justify-center items-center  "
+        className="w-[80px] h-[40px]  rounded-tl-[80px] rounded-tr-[80px] hover:bg-blue-600 bg-slate-100 absolute bottom-0 flex justify-center items-center  "
         href={"#"}
       >
-        <FaArrowRight className="text-slate-50" />
+        <FaArrowRight className="hover:text-slate-50 text-blue-600" />
       </Link>
     </div>
 
@@ -59,8 +68,8 @@ const Cards = () => {
    </div>
 
    <div>
-   <div>
-    <div className="flex justify-center items-center gap-5 mt-14   max-sm:flex-wrap ">
+   <div className='mb-80'>
+    <div className="flex justify-center items-center gap-5 mt-14   max-sm:flex-wrap  ">
 <div className=" bg-slate-200 w-60 h-64  flex flex-col relative items-center rounded-md">
          <h2 className="mt-5 text-xl">Qaz Sobası</h2>
          <Image className="mt-5"  src="/qazsobasi.png" alt="qazsobasi" width={90} height={90} />
@@ -114,12 +123,6 @@ const Cards = () => {
       </div>
    
    
-   
-   
-     </div>
-   </div>
-
-
    <div>
    <div className="flex justify-center items-center gap-5 mt-14   max-sm:flex-wrap ">
 <div className=" bg-slate-200 w-60 h-64  flex flex-col relative items-center rounded-md">
@@ -156,6 +159,172 @@ const Cards = () => {
 
        </div>
    </div>
+   
+   
+     </div>
+   </div>
+
+
+   <div className=" mb-4  bg-slate-50 -mt-52  ">
+          <div className="flex justify-evenly items-center -mt-32 m-auto max-sm:flex-wrap max-sm:text-center p-8 
+        max-sm:mt-40
+        ">
+            <div>
+              <span >
+                <Image src="/logo.png" alt="logo" width={174} height={60} />
+              </span>
+              <div className="mt-5">
+                <p className="w-[15rem]">
+                  "Lider Service"
+                  təcrübəli mütəxəssislər və konsultantlar
+                  komandasıdır
+                </p>
+              </div>
+              <div className="flex gap-6 mt-4 max-sm:ml-10">
+                <span className="border-2 border-blue-600 rounded-lg  w-9 h-7">
+                  <CgFacebook className="m-auto mt-1" />
+                </span>
+                <span className="border-2 border-blue-600 rounded-lg  w-9 h-7">
+                  <FaInstagram className="m-auto mt-1" />
+                </span>
+                <span className="border-2 border-blue-600 rounded-lg  w-9 h-7">
+                  <FaWhatsapp className="m-auto mt-1" />
+                </span>
+              </div>
+            </div>
+
+            <div>
+              <div className="max-sm:mt-10">
+                <h1 className="mb-4 ml text-2xl font-bold max-sm:-ml-5 ">Saytın xəritəsi</h1>
+              </div>
+              <div className="flex gap-8">
+                <div className="">
+                  <Link href={"/"}> <span className="flex gap-2 mb-4">
+                    <FaAnglesRight className="mt-1 text-blue-500" />
+                    <h3>Əsas səhifə </h3>
+                  </span></Link>
+                  <Link href={"/repair"}> <span className="flex gap-2 mb-4">
+                    <FaAnglesRight className="mt-1  text-blue-500" />
+                    <h3>Təmir </h3>
+                  </span></Link>
+                  <Link href={"/install"}> <span className="flex gap-2 mb-4">
+                    <FaAnglesRight className="mt-1  text-blue-500" />
+                    <h3>Quraşdırma </h3>
+                  </span></Link>
+                  <Link href={"/masterorder"}>  <span className="flex gap-2">
+                    <FaAnglesRight className="mt-1  text-blue-500" />
+                    <h3>Usta sifarişi </h3>
+                  </span></Link>
+                </div>
+                <div>
+                  <Link href={"/delivery"}>  <span className="flex gap-2 mb-4">
+                    <FaAnglesRight className="mt-1  text-blue-500" />
+                    <h3>Çatdırılma </h3>
+                  </span></Link>
+                  <Link href={"/reference"}>   <span className="flex gap-2 mb-4">
+                    <FaAnglesRight className="mt-1  text-blue-500" />
+                    <h3>Zəmanət </h3>
+                  </span></Link>
+                  <Link href={"/about"}> <span className="flex gap-2 mb-4">
+                    <FaAnglesRight className="mt-1  text-blue-500" />
+                    <h3>Haqqımızda </h3>
+                  </span></Link>
+                  <Link href={"/connect"}> <span className="flex gap-2">
+                    <FaAnglesRight className="mt-1  text-blue-500" />
+                    <h3>Əlaqə </h3>
+                  </span></Link>
+                </div>
+              </div>
+            </div>
+
+            <div className="flex justify-center  text-sky-700 gap-14">
+              <div>
+                <div>
+                  <div>
+                    <h1 className="text-2xl font-bold text-black p-6 -mt-16 max-sm:mt-10">Əlaqə</h1>
+                  </div>
+                  <div className="flex">
+                    <span>
+                      {" "}
+                      <BsTelephone />
+                    </span>
+                    <span>
+                      <Link href={"#"}>
+                        {" "}
+                        <p className="text-black ml-2">(+994 12) 565-1-565</p>
+                      </Link>
+                    </span>
+                  </div>
+                  <div className="flex">
+                    <span>
+                      <BsTelephone />
+                    </span>
+                    <span>
+                      <Link href={"#"}>
+                        {" "}
+                        <p className="text-black ml-2">(+994 12) 565-2-565</p>
+                      </Link>
+                    </span>
+                  </div>
+
+                  <div className="flex">
+                    <span>
+                      <BsTelephone />
+                    </span>
+                    <span>
+                      <Link href={"#"}>
+                        {" "}
+                        <p className="text-black ml-2">(+994 55) 222-34-19</p>
+                      </Link>
+                    </span>
+                  </div>
+
+                  <div className="flex">
+                    <span>
+                      <BsTelephone />
+                    </span>
+                    <span>
+                      <Link href={"#"}>
+                        <p className="text-black ml-2">(+994 55) 222-32-46</p>
+                      </Link>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <span className="flex m-5 gap-3 ">
+                <TbMapPin className=" text-sky-700 mt-0.5" />
+                <p>Bakı ş., Şamaxı yolu 15-ci km.</p>
+              </span>
+              <div>
+                <span className="flex ml-5 mt-3 gap-3">
+                  <span className="mt-1">
+                    {" "}
+                    <HiOutlineMail className=" text-sky-700" />{" "}
+                  </span>
+                  <span>
+                    {" "}
+                    <h4>office@solitonservice.com</h4>
+                  </span>
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <div className="border w-[1300px] m-auto mt-6">
+          </div>
+          <div className="flex justify-between mt-3">
+            <div className="ml-24">
+              <p> © Lider Service - 2022. Müəllif hüquqları qorunur.</p>
+            </div>
+            <div className="mr-24">
+              <p>Sayt Jedai tərəfindən yaradılmışdır.</p>
+            </div>
+          </div>
+        </div>
+
     </div>
   )
 }

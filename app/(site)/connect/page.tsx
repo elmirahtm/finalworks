@@ -111,7 +111,7 @@ const Əlaqə = () => {
           <h1 className=" text-center text-2xl p-4 font-bold mt-12">
             Servis Məntəqələrimiz
           </h1>
-          <span>
+          <span className=''>
           <MapItem/>
 
           </span>

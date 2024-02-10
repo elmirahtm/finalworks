@@ -6,7 +6,7 @@ import { FaPlus } from 'react-icons/fa';
 
 export default function AccordionUsage() {
   return (
-    <div>
+    <div className='max-sm:w-[23rem]'>
       <Accordion defaultExpanded>
         <AccordionSummary
           expandIcon={<FaPlus className='text-blue-500' /> }

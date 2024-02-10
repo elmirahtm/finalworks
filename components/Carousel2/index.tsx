@@ -50,32 +50,34 @@ function Carousel2() {
     ]
   };
   return (
-    <div>
+    <div className='bg-slate-200'>
+      <div className='container m-auto'>
 
-      <h2 className='text-2xl font-bold mt-10 ml-7  max-sm:text-center'>Gördüyümüz işlər</h2>
-      <div className=' w-full m-auto'>
-        <div className='mt-20 bg-slate-300  p-7  text-center'>
-          <Slider {...settings}>
-            {
-              data.map((d) => {
-                return (
-                  <div key={d.id} className="">
-                    <div>
-                      <div className=''>
-                        <img className='w-80 h-96' src={d.img} alt="" />
-                      </div>
-                      <div>
-                        <p className='bg-teal-950 text-warning-50 w-80 p-4'>{d.basliq}</p>
-                      </div>
-                    </div>
-                  </div>
-                )
-              })
-            }
-          </Slider>
-        </div>
+<h2 className='text-2xl font-bold mt-10 ml-7  max-sm:text-center'>Gördüyümüz işlər</h2>
+<div className=' w-full m-auto'>
+  <div className='mt-20   p-7  text-center'>
+    <Slider {...settings}>
+      {
+        data.map((d) => {
+          return (
+            <div key={d.id} className="">
+              <div>
+                <div className=''>
+                  <img className='w-80 h-96' src={d.img} alt="" />
+                </div>
+                <div>
+                  <p className='bg-teal-950 text-warning-50 w-80 p-4'>{d.basliq}</p>
+                </div>
+              </div>
+            </div>
+          )
+        })
+      }
+    </Slider>
+  </div>
 
-      </div>
+</div>
+</div>
     </div>
 
   )

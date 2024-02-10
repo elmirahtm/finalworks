@@ -84,7 +84,7 @@ const BodyList2 = () => {
 
               <div className="">
                 <span className=" flex justify-between items-center gap-10 flex-wrap ">
-                  <span className=" max-sm:-mt-6">
+                  <span className=" max-sm:m-auto">
                     <IoIosArrowBack />
                   </span>
                   <div>
@@ -99,7 +99,7 @@ const BodyList2 = () => {
                     </div>
                   </div>
 
-                  <span className=" max-sm:-mt-6">
+                  <span className=" max-sm:m-auto">
                     <IoIosArrowForward className="mb-6" />
                   </span>
                 </span>
@@ -113,7 +113,7 @@ const BodyList2 = () => {
               </h5>
 
               <span className=" flex justify-between items-center gap-10 flex-wrap ">
-                <span className=" max-sm:-mt-6">
+                <span className=" max-sm:m-auto">
                   <IoIosArrowBack className="mt-5" />
                 </span>
                 <div>
@@ -128,7 +128,7 @@ const BodyList2 = () => {
                   </div>
                 </div>
 
-                <span className=" max-sm:-mt-6">
+                <span className="max-sm:m-auto ">
                   <IoIosArrowForward />
                 </span>
               </span>
@@ -137,7 +137,7 @@ const BodyList2 = () => {
         </div>
 
         <div className="container m-auto">
-          <div className="flex justify-center m-6 gap-28  mt-7 mb-14   max-sm:gap-8  ">
+          <div className="flex justify-center m-6 gap-48  mt-7 mb-14   max-sm:gap-8 max-sm:mt-28   ">
             <span>
               <Image
                 className="bg-slate-300 shadow-md rounded-md p-3 w-32 h-16"
