@@ -47,9 +47,9 @@ const Header = () => {
 
         </div>
       </div>
-      <div className="bg-slate-100">
+      <div className="bg-slate-100 ">
         <div className="container m-auto">
-          <div className="flex justify-between items-center max-sm:flex-wrap max-sm:text-center ">
+          <div className="flex justify-between items-center max-sm:flex-wrap max-sm:text-center max-sm:justify-center ">
             <div>
               <Link href={"/"}><span>
                 <Image src="/logo.png" alt="logo" width={174} height={60} />
