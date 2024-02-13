@@ -61,7 +61,7 @@ const Card4 = () => {
    <div>
    <div>
     <div className="flex justify-center items-center gap-5 mt-14   max-sm:flex-wrap ">
-<div className=" bg-slate-200 w-60 h-64  flex flex-col relative items-center rounded-md">
+<div className=" bg-slate-300 w-60 h-64  flex flex-col relative items-center rounded-md">
          <h2 className="mt-5 text-xl">Qaz Sobası</h2>
          <Image className="mt-5"  src="/qazsobasi.png" alt="qazsobasi" width={90} height={90} />
          <Link
@@ -71,7 +71,7 @@ const Card4 = () => {
            <FaArrowRight className='text-blue-500' />
          </Link>
        </div>
-    <div className=" bg-slate-200 w-60 h-64  flex flex-col relative items-center rounded-md">
+    <div className=" bg-slate-300 w-60 h-64  flex flex-col relative items-center rounded-md">
          <h2 className="mt-5 text-xl">QAZ SU QIZDIRICISI</h2>
          <Image className="mt-5"  src="/qazsu.png" alt="qazsu" width={100} height={130} />
          <Link
@@ -84,7 +84,7 @@ const Card4 = () => {
   
 
    
-        <div className=" bg-slate-200 w-60 h-64  flex flex-col relative items-center rounded-md">
+        <div className=" bg-slate-300 w-60 h-64  flex flex-col relative items-center rounded-md">
          <h2 className="mt-5 text-xl">ASPİRATOR</h2>
          <Image className="mt-5 "  src="/aspirator.png" alt="aspirator" width={145} height={144} />
          <Link
@@ -95,7 +95,7 @@ const Card4 = () => {
          </Link>
        </div> 
    
-        <div className=" bg-slate-200 w-60 h-64  flex flex-col relative items-center rounded-md">
+        <div className=" bg-slate-300 w-60 h-64  flex flex-col relative items-center rounded-md">
          <h2 className="mt-5 text-xl">Peyk</h2>
          <Image className="mt-5 "  src="/peyk.png" alt="peyk" width={135} height={144} />
          <Link
@@ -122,7 +122,7 @@ const Card4 = () => {
 
    <div>
    <div className="flex justify-center items-center gap-5 mt-14   max-sm:flex-wrap ">
-<div className=" bg-slate-200 w-60 h-64  flex flex-col relative items-center rounded-md">
+<div className=" bg-slate-300 w-60 h-64  flex flex-col relative items-center rounded-md">
          <h2 className="mt-5 text-xl text-center">PALTARQURUDAN MAŞIN</h2>
          <Image className=""  src="/paltarqurudan.png" alt="paltarqurudan" width={100} height={90} />
          <Link
@@ -132,7 +132,7 @@ const Card4 = () => {
            <FaArrowRight className='text-blue-500' />
          </Link>
        </div>
-<div className=" bg-slate-200 w-60 h-64  flex flex-col relative items-center rounded-md">
+<div className=" bg-slate-300 w-60 h-64  flex flex-col relative items-center rounded-md">
          <h2 className="mt-5 text-xl">Soyuducu</h2>
          <Image className="mt-5"  src="/soyud.png" alt="soyud" width={140} height={90} />
          <Link
@@ -142,7 +142,7 @@ const Card4 = () => {
            <FaArrowRight className='text-blue-500' />
          </Link>
        </div>
-<div className=" bg-slate-200 w-60 h-64  flex flex-col relative items-center rounded-md">
+<div className=" bg-slate-300 w-60 h-64  flex flex-col relative items-center rounded-md">
          <h2 className="mt-1 text-xl">ELEKTRİK SU QIZDIRICISI</h2>
          <Image className="mt-5"  src="/elektriksu.png" alt="elektriksu" width={135} height={90} />
          <Link

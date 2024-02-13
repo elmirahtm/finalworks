@@ -40,7 +40,7 @@ const Çatdırılma = () => {
        qəbulu alıcıların iştirakı ilə tam yoxlanılaraq həyata keçirilir.</p>
  </div>
  <div>
-                  <Link href="/phone">
+                  <Link href={"tel:+994 12 565-1-565"} >
                     {" "}
                     <div className="bg-blue-600 text-slate-50 rounded-lg w-52 h-12 text-center m-auto pt-2 mt-7">
                       Əlaqə

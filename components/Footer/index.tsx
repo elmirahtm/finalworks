@@ -1,19 +1,19 @@
-import Image from 'next/image'
-import Link from 'next/link'
-import React from 'react'
-import { BsTelephone } from 'react-icons/bs'
-import { CgFacebook } from 'react-icons/cg'
-import { FaInstagram, FaWhatsapp } from 'react-icons/fa'
-import { FaAnglesRight } from 'react-icons/fa6'
-import { HiOutlineMail } from 'react-icons/hi'
-import { TbMapPin } from 'react-icons/tb'
+import Image from "next/image";
+import Link from "next/link";
+import React from "react";
+import { BsTelephone } from "react-icons/bs";
+import { CgFacebook } from "react-icons/cg";
+import { FaInstagram, FaWhatsapp } from "react-icons/fa";
+import { FaAnglesRight } from "react-icons/fa6";
+import { HiOutlineMail } from "react-icons/hi";
+import { TbMapPin } from "react-icons/tb";
 
 const Footer = () => {
   return (
-    <div >
-<div className=" mb-4  bg-slate-50 -mt-52 ">
-       <div className='container m-auto'>
-       <div
+    <div>
+      <div className=" mb-4  bg-slate-50 -mt-52 ">
+        <div className="container m-auto">
+          <div
             className="flex justify-evenly items-center -mt-32 m-auto max-sm:flex-wrap max-sm:text-center p-8 
         max-sm:mt-40
         "
@@ -30,13 +30,19 @@ const Footer = () => {
               </div>
               <div className="flex gap-6 mt-4 max-sm:ml-10">
                 <span className="border-2 border-blue-600 rounded-lg  w-9 h-7">
-                  <CgFacebook className="m-auto mt-1" />
+                  <Link href={"https://www.facebook.com/"} target="_blank">
+                    <CgFacebook className="m-auto mt-1" />
+                  </Link>
                 </span>
                 <span className="border-2 border-blue-600 rounded-lg  w-9 h-7">
-                  <FaInstagram className="m-auto mt-1" />
+                  <Link href={"https://www.instagram.com/"} target="_blank">
+                    <FaInstagram className="m-auto mt-1" />
+                  </Link>
                 </span>
                 <span className="border-2 border-blue-600 rounded-lg  w-9 h-7">
-                  <FaWhatsapp className="m-auto mt-1" />
+                  <Link href={"https://web.whatsapp.com/"} target="_blank">
+                    <FaWhatsapp className="m-auto mt-1" />
+                  </Link>
                 </span>
               </div>
             </div>
@@ -125,10 +131,8 @@ const Footer = () => {
                       <BsTelephone />
                     </span>
                     <span>
-                      <Link href={"#"}>
-                        {" "}
-                        <p className="text-black ml-2">(+994 12) 565-1-565</p>
-                      </Link>
+                    <Link href={"tel:+994 12 565-1-565"} className="text-black ml-2">(+994 12) 565-1-565
+                  </Link>
                     </span>
                   </div>
                   <div className="flex">
@@ -136,10 +140,8 @@ const Footer = () => {
                       <BsTelephone />
                     </span>
                     <span>
-                      <Link href={"#"}>
-                        {" "}
-                        <p className="text-black ml-2">(+994 12) 565-2-565</p>
-                      </Link>
+                    <Link href={"tel:+994 12 565-2-565"} className="text-black ml-2">(+994 12) 565-2-565
+                  </Link>
                     </span>
                   </div>
 
@@ -148,10 +150,8 @@ const Footer = () => {
                       <BsTelephone />
                     </span>
                     <span>
-                      <Link href={"#"}>
-                        {" "}
-                        <p className="text-black ml-2">(+994 55) 222-34-19</p>
-                      </Link>
+                    <Link href={"tel:+994 55 222-34-19"} className="text-black ml-2">(+994 55) 222-34-19
+                  </Link>
                     </span>
                   </div>
 
@@ -160,9 +160,8 @@ const Footer = () => {
                       <BsTelephone />
                     </span>
                     <span>
-                      <Link href={"#"}>
-                        <p className="text-black ml-2">(+994 55) 222-32-46</p>
-                      </Link>
+                    <Link href={"tel:+994 55 222-32-46 "} className="text-black ml-2">(+994 55) 222-32-46  </Link>
+
                     </span>
                   </div>
                 </div>
@@ -172,7 +171,7 @@ const Footer = () => {
             <div>
               <span className="flex m-5 gap-3 ">
                 <TbMapPin className=" text-sky-700 mt-0.5" />
-                <p>Bakı ş., Şamaxı yolu 15-ci km.</p>
+                <Link href={"https://maps.app.goo.gl/KWS67w3JSZ6xxFLh7"} target="_blank">Bakı ş., Şamaxı yolu 15-ci km.</Link>
               </span>
               <div>
                 <span className="flex ml-5 mt-3 gap-3">
@@ -182,7 +181,8 @@ const Footer = () => {
                   </span>
                   <span>
                     {" "}
-                    <h4>office@solitonservice.com</h4>
+                    <Link href={"mailto:"}>office@solitonservice.com</Link>
+
                   </span>
                 </span>
               </div>
@@ -198,11 +198,10 @@ const Footer = () => {
               <p>Sayt Jedai tərəfindən yaradılmışdır.</p>
             </div>
           </div>
-       </div>
         </div>
-
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
