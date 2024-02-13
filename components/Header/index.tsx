@@ -24,7 +24,7 @@ const Header = () => {
                 <span className="mt-1">
                   <HiOutlineMail />
                 </span>
-                <h4>office@solitonservice.com</h4>
+                <Link href={"mailto:"}>office@solitonservice.com</Link>
               </div>
 
               <div className="w-6">
@@ -33,13 +33,13 @@ const Header = () => {
 
               <div className="flex gap-6 mt-1 ">
                 <span>
-                  <CgFacebook />
+                  <Link href={"https://www.facebook.com/"} target="_blank"><CgFacebook /></Link>
                 </span>
                 <span>
-                  <FaInstagram />
+                  <Link href={"https://www.instagram.com/"} target="_blank"><FaInstagram /></Link>
                 </span>
                 <span>
-                  <FaWhatsapp />
+                  <Link href={"https://web.whatsapp.com/"} target="_blank"><FaWhatsapp /></Link>
                 </span>
               </div>
             </div>
@@ -63,17 +63,14 @@ const Header = () => {
 
                     <BsTelephone />
                   </span>
-                  <Link href={"#"}>
-
-                    <p className="text-black ml-2">(+994 12) 565-1-565</p>
+                  <Link href={"tel:+994 12 565-1-565"} className="text-black ml-2">(+994 12) 565-1-565
                   </Link>
                 </div>
                 <div className="flex">
                   <span>
                     <BsTelephone />
                   </span>
-                  <Link href={"#"}>
-                    <p className="text-black ml-2">(+994 12) 565-2-565</p>
+                  <Link href={"tel:+994 12 565-2-565"} className="text-black ml-2">(+994 12) 565-2-565
                   </Link>
                 </div>
               </div>
@@ -82,18 +79,14 @@ const Header = () => {
                   <span>
                     <BsTelephone />
                   </span>
-                  <Link href={"#"}>
-
-                    <p className="text-black ml-2">(+994 55) 222-34-19</p>
+                  <Link href={"tel:+994 55 222-34-19"} className="text-black ml-2">(+994 55) 222-34-19
                   </Link>
                 </div>
                 <div className="flex">
                   <span>
                     <BsTelephone />
                   </span>
-                  <Link href={"#"}>
-                    <p className="text-black ml-2">(+994 55) 222-32-46</p>
-                  </Link>
+                  <Link href={"tel:+994 55 222-32-46 "} className="text-black ml-2">(+994 55) 222-32-46  </Link>
                 </div>
               </div>
             </div>
