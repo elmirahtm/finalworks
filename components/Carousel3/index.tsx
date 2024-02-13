@@ -51,18 +51,18 @@ function Carousel3() {
   return (
     
 <div>
-<div className='bg-slate-200 '>
+<div className='bg-slate-300 '>
 <div className='container m-auto  '>
       <h2 className='text-2xl font-bold text-center pt-10 max-sm:mt-10'>Müştəri rəyləri</h2>
       <div className=' w-3/4 m-auto'>
-        <div className='mt-20  p-7 ml-6 text-center'>
+        <div className='mt-20  p-7 ml-6  text-center'>
           <Slider {...settings}>
             {
               data.map((d) => {
                 return (
                   <div key={d.id} className="">
                     <div>
-                      <div className=''>
+                      <div className='pb-7'>
                         <img className='w-72 h-96' src={d.img} alt="" />
                       </div>
 

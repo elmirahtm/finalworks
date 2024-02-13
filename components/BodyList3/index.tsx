@@ -12,8 +12,14 @@ import { CgFacebook } from "react-icons/cg";
 import MapItem from "../MapItem";
 import AccordionUsage from "../Accordeon";
 import Footer from "../Footer";
+import { useRouter } from "next/navigation";
 
 const BodyList3 = () => {
+  const router = useRouter()
+  const handlesubmit = (e:any) => {
+      e.preventDefault()
+      router.push("/order")
+  }
   return (
     <div>
       <div>
@@ -169,10 +175,11 @@ const BodyList3 = () => {
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                       Ac est nulla tellus pharetra egestas.
                     </p>
-                    <form>
+                    <form onSubmit={handlesubmit}>
                       <div className="flex gap-9 mt-5 ">
                         <div>
                           <input
+                          required
                             className="border-b-2 border-slate-300 bg-transparent w-[18rem]"
                             type="text"
                             placeholder="*Adınız və Soyadınız"
@@ -180,6 +187,7 @@ const BodyList3 = () => {
                         </div>
                         <div>
                           <input
+                          required
                             className="border-b-2 border-slate-300 bg-transparent"
                             type="number"
                             placeholder="*Telefon nömrəniz"
@@ -192,6 +200,7 @@ const BodyList3 = () => {
                         <div>
                           {" "}
                           <input
+                          required
                             className="border-b-2 border-slate-300 bg-transparent w-[18rem]"
                             type="text"
                             placeholder="Sifariş etmək istədiyiniz xidməti seçin"
@@ -200,20 +209,21 @@ const BodyList3 = () => {
                         <div>
                           {" "}
                           <input
+                          required
                             className="border-b-2 border-slate-300 bg-transparent"
                             type="text"
                             placeholder="Sifariş haqqında məlumat"
                           />
                         </div>
                       </div>
+                      
+                        
+                        <button className="bg-blue-600 text-slate-50 rounded-lg w-52 h-12 text-center p-2 mt-7">
+                          Sifariş et
+                        </button>{" "}
+                      
                     </form>
                     <div>
-                      <Link href="/order">
-                        {" "}
-                        <div className="bg-blue-600 text-slate-50 rounded-lg w-52 h-12 text-center p-2 mt-7">
-                          Sifariş et
-                        </div>{" "}
-                      </Link>
                     </div>
                   </div>
                 </div>

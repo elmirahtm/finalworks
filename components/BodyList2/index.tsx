@@ -8,6 +8,7 @@ import { FaArrowRight } from "react-icons/fa";
 import Card2 from "../Card2";
 
 const BodyList2 = () => {
+  
   return (
     <div>
       <div>

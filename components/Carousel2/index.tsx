@@ -49,13 +49,14 @@ function Carousel2() {
       }
     ]
   };
-  return (
-    <div className='bg-slate-200'>
-      <div className='container m-auto'>
 
-<h2 className='text-2xl font-bold mt-10 ml-7  max-sm:text-center'>Gördüyümüz işlər</h2>
+  return (
+    <div className='bg-slate-300 pb-8'>
+      <div className='w-full max-w-[1024px] m-auto'>
+
+<h2 className='text-2xl font-bold mt-10 ml-9 pt-3  max-sm:text-center'>Gördüyümüz işlər</h2>
 <div className=' w-full m-auto'>
-  <div className='mt-20   p-7  text-center'>
+  <div className='mt-20   text-center'>
     <Slider {...settings}>
       {
         data.map((d) => {
@@ -81,6 +82,38 @@ function Carousel2() {
     </div>
 
   )
+//   return (
+//     <div className='bg-slate-200'>
+//       <div className='container m-auto'>
+
+// <h2 className='text-2xl font-bold mt-10 ml-7  max-sm:text-center'>Gördüyümüz işlər</h2>
+// <div className=' w-full m-auto'>
+//   <div className='mt-20   p-7  text-center'>
+//     <Slider {...settings}>
+//       {
+//         data.map((d) => {
+//           return (
+//             <div key={d.id} className="">
+//               <div>
+//                 <div className=''>
+//                   <img className='w-80 h-96' src={d.img} alt="" />
+//                 </div>
+//                 <div>
+//                   <p className='bg-teal-950 text-warning-50 w-80 p-4'>{d.basliq}</p>
+//                 </div>
+//               </div>
+//             </div>
+//           )
+//         })
+//       }
+//     </Slider>
+//   </div>
+
+// </div>
+// </div>
+//     </div>
+
+//   )
 }
 
 export default Carousel2
