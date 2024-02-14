@@ -69,8 +69,8 @@ const Home1 = () => {
             </div>
           </div>
         </div>
-        {/*  */}
-        {/*  */}
+       
+       
         <div className='bg-[url("/bg.png")] bg-no-repeat w-full h-[65rem] mb-10 max-sm:h-[180rem]'>
           <div className="container m-auto">
             <div>

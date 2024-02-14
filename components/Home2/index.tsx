@@ -1,14 +1,11 @@
 "use client";
 import Image from "next/image";
 import Carousel2 from "../Carousel2";
-import { FaInstagram, FaPlus, FaWhatsapp } from "react-icons/fa";
 import Carousel3 from "../Carousel3";
 import Link from "next/link";
 import { TbMapPin } from "react-icons/tb";
 import { BsTelephone } from "react-icons/bs";
 import { HiOutlineMail } from "react-icons/hi";
-import { FaAnglesRight } from "react-icons/fa6";
-import { CgFacebook } from "react-icons/cg";
 import MapItem from "../MapItem";
 import AccordionUsage from "../Accordeon";
 import Footer from "../Footer";
