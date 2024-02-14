@@ -13,9 +13,9 @@ const NotFound = () => {
             <Image className='m-auto' src={"/404.png"} alt='404error' width={930} height={430}/>
         </div>
      <Link href="/"> 
-       <div className='w-32 h-12 bg-blue-600 m-auto  '>
+       <div className='w-44 h-12 bg-blue-600 m-auto rounded-md '>
             <button className=' text-slate-50  '>
-             <div className='flex gap-2 p-2 '>
+             <div className='flex gap-2 py-3 justify-evenly ml-6'>
               <div><MdOutlineKeyboardBackspace className='mt-1 ' /></div> 
                <div>  Geri Qayıt </div>
              </div>

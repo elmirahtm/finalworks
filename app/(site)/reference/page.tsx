@@ -10,6 +10,7 @@ import { FaInstagram, FaWhatsapp } from 'react-icons/fa'
 import { FaAnglesRight } from 'react-icons/fa6'
 import { HiOutlineMail } from 'react-icons/hi'
 import { TbMapPin } from 'react-icons/tb'
+import { VscDebugBreakpointLog } from 'react-icons/vsc'
 
 
 const  Zəmanət = () => {
@@ -72,12 +73,16 @@ const  Zəmanət = () => {
 <p className='mt-4 max-sm:-ml-3'> İri həcmli məişət texnikalarının (Soyuducu,paltaryuyan,qabyuyan,paltarqurudan,qaz peçləri,soba,bişirmə paneli,aspirator,televizor,dondurucu,sərinləşdirici,elektrikli və qazlı su qızdırıcısı,kombi,kondisioner ) 3(üç) illik zəmanəti . Televizor panellərinin zəmanət müddəti isə 18 (on səkkiz) aydır (BEKO,BLOMBERG,GRUNDİG markalarında).</p>
 
   </div>
-  <ul>
-  <li className='mt-4'>Məhsulda yerləşən hissələrin ( istifadə qaydalarına riayət olunduğu , lazımi parametrlərin düzgün təmin edildiyi halda ) sıradan çıxanlarının yenisi ilə əvəz olunması .</li>
-  <li className='mt-4'>Təmir məqsədi ilə məhsulun (iri həcmli ) servis məntəqəsinə gətirilməsi və geri qaytarılması .</li>
-  <li className='mt-4'>1 (bir) dəfə pulsuz montaj və istifadə qaydalarının izahı .</li>
-  <li className='mt-4'>Kiçik həcmli məişət texnikalarının (Kiçik mətbəx əşyaları,kiçik elektronik əşyalar,elektrikli qızdırıcı,fotoaparat və kamera,ütü,tozsoran,xüsusi baxım alətləri) 1(bir) illik zəmanəti . </li>
-</ul>
+  <div>
+  <p className='mt-4 flex'> <VscDebugBreakpointLog />
+Məhsulda yerləşən hissələrin ( istifadə qaydalarına riayət olunduğu , lazımi parametrlərin düzgün təmin edildiyi halda ) sıradan çıxanlarının yenisi ilə əvəz olunması .</p>
+  <p className='mt-4 flex'> <VscDebugBreakpointLog className='' />
+Təmir məqsədi ilə məhsulun (iri həcmli ) servis məntəqəsinə gətirilməsi və geri qaytarılması .</p>
+  <p className='mt-4 flex'> <VscDebugBreakpointLog />
+1 (bir) dəfə pulsuz montaj və istifadə qaydalarının izahı .</p>
+  <p className='mt-4 flex'> <VscDebugBreakpointLog />
+ Həcmli məişət texnikalarının (Kiçik mətbəx əşyaları,kiçik elektronik əşyalar,elektrikli qızdırıcı,fotoaparat və kamera,ütü,tozsoran,xüsusi baxım alətləri) 1(bir) illik zəmanəti . </p>
+</div>
 
 </div>
 

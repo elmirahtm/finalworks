@@ -19,9 +19,9 @@ const MainPage = () => {
             <Brends />
           </div>
 
-         <div>
-          <RepairInstall/>
-         </div>
+          <div>
+            <RepairInstall />
+          </div>
 
           <div>
             <Brends2 />
