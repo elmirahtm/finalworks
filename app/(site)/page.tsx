@@ -1,9 +1,9 @@
 "use client"
-import BodyList2 from '@/components/BodyList2'
-import BodyList3 from '@/components/BodyList3'
-import Carousel from '@/components/Carousel'
 import Header from '@/components/Header'
 import HeaderRoutes from '@/components/HeaderRoutes'
+import Carousel from '@/components/Carousel'
+import Home1 from '@/components/Home1'
+import Home2 from '@/components/Home2'
 
 
 
@@ -14,8 +14,8 @@ const Home = () => {
       <HeaderRoutes/> 
      
         <Carousel/>
-      <BodyList2/> 
-      <BodyList3/> 
+      <Home1/> 
+      <Home2/> 
     
 
 

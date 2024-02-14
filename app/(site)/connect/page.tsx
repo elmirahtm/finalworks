@@ -42,38 +42,31 @@ const Əlaqə = () => {
                 
                 <div className="flex ml-7 mb-2">
                   <span>
-                    <Link href={"#"}>
-                      {" "}
-                      <p className="text-black ml-2">(+994 12) 565-1-565</p>
-                    </Link>
+                  <Link href={"tel:+994 12 565-1-565"} className="text-black ml-2">(+994 12) 565-1-565
+                  </Link>
                   </span>
                 </div>
                 <div className="flex ml-7 mb-2">
                  
                   <span>
-                    <Link href={"#"}>
-                      {" "}
-                      <p className="text-black ml-2">(+994 12) 565-2-565</p>
-                    </Link>
+                  <Link href={"tel:+994 12 565-2-565"} className="text-black ml-2">(+994 12) 565-2-565
+                  </Link>
                   </span>
                 </div>
 
                 <div className="flex ml-7 mb-2">
                  
                   <span>
-                    <Link href={"#"}>
-                      {" "}
-                      <p className="text-black ml-2">(+994 55) 222-34-19</p>
-                    </Link>
+                  <Link href={"tel:+994 55 222-34-19"} className="text-black ml-2">(+994 55) 222-34-19
+                  </Link>
                   </span>
                 </div>
 
                 <div className="flex ml-7 ">
                  
                   <span>
-                    <Link href={"#"}>
-                      <p className="text-black ml-2">(+994 55) 222-32-46</p>
-                    </Link>
+                  <Link href={"tel:+994 55 222-32-46 "} className="text-black ml-2">(+994 55) 222-32-46  </Link>
+
                   </span>
                 </div>
               </div>
@@ -86,7 +79,8 @@ const Əlaqə = () => {
           <div>
           <span className=" m-5  ">
              
-             <p>Bakı ş., Şamaxı yolu 15-ci km.</p>
+          <Link href={"https://maps.app.goo.gl/KWS67w3JSZ6xxFLh7"} target="_blank">Bakı ş., Şamaxı yolu 15-ci km.</Link>
+
            </span>
           </div>
             </div>
@@ -98,7 +92,7 @@ const Əlaqə = () => {
                 </span>
                 <span>
                   {" "}
-                  <h4>office@solitonservice.com</h4>
+                  <Link href={"mailto:"}>office@solitonservice.com</Link>
                 </span>
               </span>
             </div>
