@@ -11,10 +11,10 @@ import { TbMapPin } from "react-icons/tb";
 const Footer = () => {
   return (
     <div>
-      <div className=" mb-4  bg-slate-50 -mt-52 ">
+      <div className=" mb-4  bg-slate-50 -mt-52 max-sm:w-[30rem] ">
         <div className="container m-auto">
           <div
-            className="flex justify-evenly items-center -mt-32 m-auto max-sm:flex-wrap max-sm:text-center p-8 
+            className="flex justify-evenly items-center -mt-32 m-auto  max-sm:flex-col max-sm:text-center p-8 
         max-sm:mt-40
         "
           >
@@ -59,7 +59,7 @@ const Footer = () => {
                     {" "}
                     <span className="flex gap-2 mb-4">
                       <FaAnglesRight className="mt-1 text-blue-500" />
-                      <h3>Əsas səhifə </h3>
+                      <h3 className="max-sm:w-[6rem]">Əsas səhifə </h3>
                     </span>
                   </Link>
                   <Link href={"/repair"}>
@@ -190,12 +190,12 @@ const Footer = () => {
           </div>
 
           <div className="border w-[1300px] m-auto mt-6 "></div>
-          <div className="flex justify-between mt-3 max-sm:gap-14">
+          <div className="flex justify-between mt-3 max-sm:gap-3  max-sm:justify-center ">
             <div className="ml-24">
-              <p> © Lider Service - 2022. Müəllif hüquqları qorunur.</p>
+              <p className="max-sm:w-[13rem]"> © Lider Service - 2022. Müəllif hüquqları qorunur.</p>
             </div>
             <div className="mr-24">
-              <p>Sayt Jedai tərəfindən yaradılmışdır.</p>
+              <p className="max-sm:w-[12rem]">Sayt Jedai tərəfindən yaradılmışdır.</p>
             </div>
           </div>
         </div>

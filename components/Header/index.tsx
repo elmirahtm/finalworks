@@ -14,12 +14,12 @@ const Header = () => {
       <div className=" bg-gray-800 text-cyan-50 p-4">
         <div className="container m-auto">
           <div className="flex justify-between  max-sm:flex-wrap max-sm:flex-col  ">
-            <div className="flex gap-14  max-sm:justify-center">
+            <div className="flex gap-14  max-sm:justify-center max-sm:m-auto max-sm:mb-4">
               <h4>Servis məntəqələrimiz</h4>
               <h4>Tez-tez verilən suallar</h4>
             </div>
 
-            <div className="flex gap-7 max-sm:justify-center">
+            <div className="flex gap-7 max-sm:justify-center max-sm:gap-5 ">
               <div className="flex gap-3">
                 <span className="mt-1">
                   <HiOutlineMail />
@@ -27,11 +27,11 @@ const Header = () => {
                 <Link href={"mailto:"}>office@solitonservice.com</Link>
               </div>
 
-              <div className="w-6">
+              <div className="w-6 max-sm:w-1">
                 <Image src="/Line.png" alt="line" width={1} height={0.5} />
               </div>
 
-              <div className="flex gap-6 mt-1 ">
+              <div className="flex gap-6 mt-1 max-sm:gap-2 ">
                 <span>
                   <Link href={"https://www.facebook.com/"} target="_blank"><CgFacebook /></Link>
                 </span>

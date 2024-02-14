@@ -52,22 +52,22 @@ function Carousel2() {
 
   return (
     <div className='bg-slate-300 pb-8'>
-      <div className='w-full max-w-[1024px] m-auto'>
+      <div className='w-full max-w-[1024px] m-auto '>
 
 <h2 className='text-2xl font-bold mt-10 ml-9 pt-3  max-sm:text-center'>Gördüyümüz işlər</h2>
-<div className=' w-full m-auto'>
+<div className=' w-full m-auto '>
   <div className='mt-20   text-center'>
     <Slider {...settings}>
       {
-        data.map((d) => {
+        data.map(({id,img,basliq}) => {
           return (
-            <div key={d.id} className="">
-              <div>
+            <div key={id} className="">
+              <div className='max-sm:ml-14'>
                 <div className=''>
-                  <img className='w-80 h-96' src={d.img} alt="" />
+                  <img className='w-80 h-96' src={img} alt="" />
                 </div>
                 <div>
-                  <p className='bg-teal-950 text-warning-50 w-80 p-4'>{d.basliq}</p>
+                  <p className='bg-teal-950 text-warning-50 w-80 p-4'>{basliq}</p>
                 </div>
               </div>
             </div>

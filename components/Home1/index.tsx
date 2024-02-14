@@ -23,8 +23,8 @@ const Home1 = () => {
             </div>
 
             <div>
-              <span className="flex  justify-between gap-10 mt-10">
-                <span className="mt-6 max-sm:-mt-6">
+              <span className="flex  justify-between gap-10 mt-10 max-sm:gap-2">
+                <span className="mt-6 max-sm:mt-0">
                   <IoIosArrowBack />
                 </span>
 
@@ -62,7 +62,7 @@ const Home1 = () => {
                   />
                 </span>
 
-                <span className=" mt-6 max-sm:-mt-6">
+                <span className=" mt-6 max-sm:mt-0">
                   <IoIosArrowForward />
                 </span>
               </span>
@@ -138,7 +138,7 @@ const Home1 = () => {
         </div>
 
         <div className="container m-auto">
-          <div className="flex justify-center m-6 gap-48  mt-7 mb-14   max-sm:gap-8 max-sm:mt-28   ">
+          <div className="flex justify-center m-6 gap-48  mt-7 mb-14   max-sm:gap-8 max-sm:mt-28 max-sm:w-80   ">
             <span>
               <Image
                 className="bg-slate-300 shadow-md rounded-md p-3 w-32 h-16"
