@@ -12,9 +12,9 @@ const Footer = () => {
   return (
     <div>
       <div className=" mb-4  bg-slate-50 -mt-52 max-sm:w-[30rem] ">
-        <div className="container m-auto">
+        <div className="container m-auto ">
           <div
-            className="flex justify-evenly items-center -mt-32 m-auto  max-sm:flex-col max-sm:text-center p-8 
+            className="flex justify-evenly items-center -mt-32 m-auto max-lg:gap-11 max-lg:flex-col max-sm:flex-col max-sm:text-center p-8 
         max-sm:mt-40
         "
           >

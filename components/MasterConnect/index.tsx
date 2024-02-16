@@ -18,15 +18,15 @@ const MasterConnect = () => {
           <div className="bg-sky-900 h-[45rem] max-sm:bg-transparent max-sm:mb-[33rem]">
             <div className="container m-auto  ">
               <div className="flex justify-center max-sm:text-center max-sm:block max-sm:-ml-20 ">
-                <div className="bg-slate-200 w-[53%] h-[22.8rem] px-2  mt-10 max-sm:ml-0 max-sm:mb-0 max-sm:w-[30rem] max-sm:h-[35rem]  ">
+                <div className="bg-slate-200 w-[53%] h-[22.8rem] px-2  mt-10 max-sm:ml-0 max-sm:mb-0 max-sm:w-[30rem] max-sm:h-[35rem] max-lg:h-[23.4rem]  ">
                   <div className="ml-4 mt-7 ">
                     <h1 className="text-3xl mb-5 ">Usta sifarişi</h1>
                     <p className="w-[30rem] max-sm:w-[20rem] max-sm:m-auto">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                       Ac est nulla tellus pharetra egestas.
                     </p>
-                    <form onSubmit={handlesubmit}>
-                      <div className="flex gap-9 mt-5 max-sm:flex-col ">
+                    <form onSubmit={handlesubmit} className='max-sm:flex flex-col' >
+                      <div className="flex gap-9 mt-5 max-sm:flex-col max-lg:flex-col ">
                         <div>
                           <input
                           required
@@ -46,7 +46,7 @@ const MasterConnect = () => {
                           />
                         </div>
                       </div>
-                      <div className="flex gap-9 mt-10 max-sm:flex-col">
+                      <div className="flex gap-9 mt-10 max-sm:flex-col max-lg:flex-col">
                         <div>
                           {" "}
                           <input
@@ -78,7 +78,7 @@ const MasterConnect = () => {
                   </div>
                 </div>
 
-                <div className="bg-blue-700  w-[40%] h-[22.8rem]   mt-10 text-white  max-sm:-mt-28 max-sm:w-[30rem] max-sm:h-[29rem] ">
+                <div className="bg-blue-700  w-[40%] h-[22.8rem]   mt-10 text-white  max-sm:-mt-28 max-sm:w-[30rem] max-sm:h-[29rem] max-lg:h-[23.4rem] ">
                   <h1 className="text-3xl p-5">Əlaqə</h1>
                   <div className=" container m-auto ">
                   <span className="flex m-5 ">
