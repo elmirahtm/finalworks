@@ -5,7 +5,7 @@ const Brends2 = () => {
   return (
     <div>
          <div className="container m-auto">
-          <div className="flex justify-center m-6 gap-48  mt-7 mb-14   max-sm:gap-8 max-sm:mt-28 max-sm:w-80   ">
+          <div className="flex justify-center m-6 gap-48  mt-7 mb-14   max-sm:gap-8 max-sm:mt-28 max-sm:w-80 max-lg:gap-8 max-lg:mt-28 m  ">
             <span>
               <Image
                 className="bg-slate-300 shadow-md rounded-md p-3 w-32 h-16"

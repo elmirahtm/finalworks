@@ -8,7 +8,7 @@ import Card2 from "../Card2";
 const RepairInstall = () => {
   return (
     <div>
-      <div className='bg-[url("/bg.png")] bg-no-repeat w-full h-[65rem] mb-10 max-sm:h-[180rem]'>
+      <div className='bg-[url("/bg.png")] bg-no-repeat w-full h-[65rem] mb-10 max-sm:h-[180rem] max-lg:h-[120rem] max-xl:h-[120rem] '>
         <div className="container m-auto">
           <div>
             <div className="">
@@ -21,7 +21,7 @@ const RepairInstall = () => {
 
             <div className="">
               <span className=" flex justify-between items-center gap-10 flex-wrap ">
-                <span className=" max-sm:m-auto">
+                <span className=" max-sm:m-auto max-lg:m-auto max-xl:m-auto">
                   <IoIosArrowBack />
                 </span>
                 <div>
@@ -36,7 +36,7 @@ const RepairInstall = () => {
                   </div>
                 </div>
 
-                <span className=" max-sm:m-auto">
+                <span className=" max-sm:m-auto max-lg:m-auto max-xl:m-auto">
                   <IoIosArrowForward className="mb-6" />
                 </span>
               </span>
@@ -49,7 +49,7 @@ const RepairInstall = () => {
             </h5>
 
             <span className=" flex justify-between items-center gap-10 flex-wrap ">
-              <span className=" max-sm:m-auto">
+              <span className=" max-sm:m-auto max-lg:m-auto max-xl:m-auto">
                 <IoIosArrowBack className="mt-5" />
               </span>
               <div>
@@ -64,7 +64,7 @@ const RepairInstall = () => {
                 </div>
               </div>
 
-              <span className="max-sm:m-auto ">
+              <span className="max-sm:m-auto max-lg:m-auto max-xl:m-auto ">
                 <IoIosArrowForward />
               </span>
             </span>
