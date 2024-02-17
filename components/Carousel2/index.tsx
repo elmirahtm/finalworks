@@ -67,7 +67,7 @@ function Carousel2() {
                   <img className='w-80 h-96' src={img} alt="" />
                 </div>
                 <div>
-                  <p className='bg-teal-950 text-warning-50 w-80 p-4'>{basliq}</p>
+                  <div className='bg-teal-950 text-warning-50 w-80 p-4'>{basliq}</div>
                 </div>
               </div>
             </div>
