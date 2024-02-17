@@ -5,7 +5,7 @@ import { FaArrowRight } from "react-icons/fa6";
 const Card = () => {
   return (
   <div>
- <div className="flex justify-center  items-center gap-5 mt-14   max-sm:flex-wrap max-lg:flex-wrap max-xl:flex-wrap">
+ <div className="flex justify-center  items-center gap-5 mt-14   max-sm:flex-wrap max-md:flex-wrap max-lg:flex-wrap max-xl:flex-wrap">
  <div className=" bg-slate-300 w-[16.5rem] h-64 flex flex-col relative items-center rounded-md ">
       <h2 className="mt-5 text-xl">KONDİSİONER</h2>
       <Image className="mt-5 " src="/kondisioner.png" alt="kondisioner" width={200} height={150} />

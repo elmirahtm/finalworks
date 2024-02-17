@@ -29,7 +29,7 @@ const Quraşdırma = () => {
       </div>  
 
       <div>
-      <div className='bg-[url("/bg.png")] w-full -mt-28 h-[79rem] mb-10 max-sm:h-[205rem]'>
+      <div className='bg-[url("/bg.png")] w-full -mt-28 h-[79rem] mb-10 max-sm:h-[205rem] max-md:h-[205rem] max-lg:h-[205rem] max-xl:h-[205rem]'>
           <div>
             <div>
           
