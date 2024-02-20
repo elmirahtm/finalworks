@@ -36,21 +36,26 @@ const Haqqımızda = () => {
         <div>
           <div className="container m-auto">
             <div className="bg-white w-[1060px] h-[1140px] max-sm:h-[1190px] mb-20 -mt-10  m-auto shadow-xl p-5 max-sm:mb-20 max-sm:w-[30rem] max-sm:m-auto max-sm:pt-3">
-              <span>
+              <span >
+             <video  className="m-auto " width={"944"} height={"190"} controls >
+<source  src="/videomaster.mp4" type="video/mp4"/>
+              
                 {" "}
-                <Image
+                {/* <Image
                   className="m-auto "
                   src="/ismaster.png"
                   alt="ismaster"
                   width={944}
                   height={489}
-                />
-                <Link href={"/about"}>
-                  <FaRegCirclePlay className="w-28 h-12 -mt-60 max-sm:-mt-32 m-auto " />
-                </Link>
+                /> */}
+                {/* <Link href={"/about"}>
+                  {/* <FaRegCirclePlay className="w-28 h-12 -mt-60 max-sm:-mt-32 m-auto " /> */}
+                {/* </Link>  */}
+             </video>
               </span>
+             
 
-              <div className="ml-6 mt-44 max-sm:mt-0">
+              <div className="ml-6 -mt-12 max-sm:mt-0">
                 <h1 className="text-2xl pt-24 font-bold max-sm:ml-12">
                   "Lider Service" haqqında
                 </h1>
