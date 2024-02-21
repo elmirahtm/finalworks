@@ -19,8 +19,8 @@ function Carousel2() {
     dots: true,
     infinite: false,
     speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 3,
+    slidesToShow: 4,
+    slidesToScroll: 4,
     initialSlide: 0,
     responsive: [
       {
@@ -51,69 +51,69 @@ function Carousel2() {
   };
 
   return (
-    <div className='bg-slate-300 pb-8'>
-      <div className='w-full max-w-[1024px] m-auto '>
-
-<h2 className='text-2xl font-bold mt-10 ml-9 pt-3  max-sm:text-center'>Gördüyümüz işlər</h2>
-<div className=' w-full m-auto '>
-  <div className='mt-20   text-center'>
-    <Slider {...settings}>
-      {
-        data.map(({id,img,basliq}) => {
-          return (
-            <div key={id} className="">
-              <div className='max-sm:ml-14'>
-                <div className=''>
-                  <img className='w-80 h-96' src={img} alt="" />
-                </div>
-                <div>
-                  <div className='bg-teal-950 text-warning-50 w-80 p-4'>{basliq}</div>
+    <div>
+<div className='bg-slate-300 pb-8'>
+  <div className='container m-auto  '>
+ <h2 className='text-2xl font-bold mt-10  pt-6 text-center  max-sm:text-center'>Gördüyümüz işlər</h2>
+      <div className=' w-3/4 m-auto'>
+        <div className=' mt-20  p-7 ml-6  text-center'>
+        <Slider {...settings}>
+        {
+          data.map(({id,img,basliq}) => {
+            return (
+              <div key={id} className="">
+                <div className='max-sm:ml-14'>
+                  <div className=''>
+                    <img className='w-80 h-96 px-1 max-sm:px-0 max-sm:-ml-4 max-sm:h-28' src={img} alt="" />
+                  </div>
+                  <div>
+                    <div className='bg-teal-950 text-warning-50 w-56 p-2  max-sm:bg-transparent max-sm:text-transparent'>{basliq}</div>
+                  </div>
                 </div>
               </div>
-            </div>
-          )
-        })
-      }
-    </Slider>
-  </div>
+            )
+          })
+        }
+      </Slider>
+        </div>
 
-</div>
-</div>
+
+
+
+      </div>
     </div>
+</div>
+</div>
+    )
+    //     <div className='bg-slate-300 pb-8'>
+    // <h2 className='text-2xl font-bold mt-10  pt-6 text-center  max-sm:text-center'>Gördüyümüz işlər</h2>
+    //       <div className='w-full max-w-[1024px] m-auto '>
+    // <div className=' w-full m-auto '>
+    //   <div className='mt-20   text-center'>
+    //     <Slider {...settings}>
+    //       {
+    //         data.map(({id,img,basliq}) => {
+    //           return (
+    //             <div key={id} className="">
+    //               <div className='max-sm:ml-14'>
+    //                 <div className=''>
+    //                   <img className='w-80 h-96' src={img} alt="" />
+    //                 </div>
+    //                 <div>
+    //                   <div className='bg-teal-950 text-warning-50 w-80 p-4'>{basliq}</div>
+    //                 </div>
+    //               </div>
+    //             </div>
+    //           )
+    //         })
+    //       }
+    //     </Slider>
+    //   </div>
+    
+    // </div>
+    // </div>
+    //     </div>
 
-  )
-//   return (
-//     <div className='bg-slate-200'>
-//       <div className='container m-auto'>
-
-// <h2 className='text-2xl font-bold mt-10 ml-7  max-sm:text-center'>Gördüyümüz işlər</h2>
-// <div className=' w-full m-auto'>
-//   <div className='mt-20   p-7  text-center'>
-//     <Slider {...settings}>
-//       {
-//         data.map((d) => {
-//           return (
-//             <div key={d.id} className="">
-//               <div>
-//                 <div className=''>
-//                   <img className='w-80 h-96' src={d.img} alt="" />
-//                 </div>
-//                 <div>
-//                   <p className='bg-teal-950 text-warning-50 w-80 p-4'>{d.basliq}</p>
-//                 </div>
-//               </div>
-//             </div>
-//           )
-//         })
-//       }
-//     </Slider>
-//   </div>
-
-// </div>
-// </div>
-//     </div>
-
-//   )
 }
 
 export default Carousel2
