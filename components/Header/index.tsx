@@ -115,7 +115,8 @@ const Header = () => {
             </div>
 
             <div className="mt-8">
-              <span>
+          <Link href={"tel:180"}>
+          <span>
                 <Image src="/daire.png" alt="daire" width={113} height={51} />
                 <div className="-mt-2 -ml-2">
                   <span className="relative -top-9 left-5">
@@ -125,7 +126,7 @@ const Header = () => {
                     <Image src="/180.png" alt="180" width={51} height={28} />
                   </span>
                 </div>
-              </span>
+              </span></Link>
             </div>
           </div>
         </div>
