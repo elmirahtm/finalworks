@@ -31,7 +31,7 @@ const Təmir = () => {
       </div>
       
       <div>
-      <div className='bg-[url("/bg.png")] w-full -mt-28 h-[55rem] mb-10 max-sm:h-[145rem] max-md:h-[145rem] max-lg:h-[145rem] max-xl:h-[145rem]'>
+      <div className='bg-[url("/bg.png")] w-full -mt-28 h-[55rem] mb-10  max-sm:h-[205rem] max-md:h-[80rem] max-lg:h-[80rem] max-xl:h-[80rem]'>
           <div>
             <div>
           
