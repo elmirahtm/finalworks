@@ -6,7 +6,7 @@ import { FaArrowRight } from 'react-icons/fa'
 const Card2 = () => {
   return (
     <div>
-      <div className="flex justify-center items-center gap-5 mt-14   max-sm:flex-wrap max-md:flex-wrap max-lg:flex-wrap max-xl:flex-wrap ">
+      <div className="flex justify-center items-center gap-5 mt-14 max-sm:flex-wrap max-md:flex-wrap max-lg:flex-wrap max-xl:flex-wrap ">
         <div className=" bg-slate-300 w-[16.5rem] h-64  flex flex-col relative items-center rounded-md">
           <h2 className="mt-5 text-xl">Paltaryuyan</h2>
           <Image className="mt-5" src="/paltaryuyan.png" alt="paltaryuyan" width={150} height={157} />

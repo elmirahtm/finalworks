@@ -35,7 +35,7 @@ const Əlaqə = () => {
               <div className='bg-slate-100 w-72 p-2 pb-8 max-sm:mb-5 '>
                 <div className='flex ml-4'>
                 <span className='mt-8'>
-                    <BsTelephone className='text-blue-600' />
+                    <BsTelephone className='text-blue-600 max-sm:mt-10' />
                   </span>
                   <h1 className="text-2xl font-bold text-black p-6  max-sm:mt-10">Telefon</h1>
                 </div>

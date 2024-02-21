@@ -181,7 +181,7 @@ const Haqqımızda = () => {
                 <div className="border-2 border-blue-300 absolute right-32 top-12 w-[350px] max-sm:ml-4 max-sm:w-[320px] h-[438px] max-sm:h-[438px] max-sm:left-12 max-sm:-mt-20 "></div>
                 <div>
                   <Image
-                    className="mt-20 -ml-24 max-sm:ml-4"
+                    className="mt-20 -ml-24 max-sm:ml-4 max-lg:w-[459px]"
                     src="/qulaqliq.png"
                     alt="qulaqliq"
                     width={459}

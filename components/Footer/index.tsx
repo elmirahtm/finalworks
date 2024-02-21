@@ -14,13 +14,13 @@ const Footer = () => {
       <div className=" mb-4  bg-slate-50 -mt-52 max-sm:w-[30rem] ">
         <div className="container m-auto ">
           <div
-            className="flex justify-evenly items-center -mt-32 m-auto max-lg:gap-11 max-lg:flex-col max-sm:flex-col max-sm:text-center p-8 
+            className="flex justify-evenly items-center -mt-32 m-auto max-lg:gap-4 max-lg:flex-col max-xl:gap-6  max-sm:flex-col max-sm:text-center p-8 
         max-sm:mt-40
         "
           >
             <div>
               <span>
-                <Image src="/logo.png" alt="logo" width={174} height={60} />
+                <Image className="max-xl:-mt-10" src="/logo.png" alt="logo" width={174} height={60} />
               </span>
               <div className="mt-5">
                 <p className="w-[15rem]">
@@ -117,7 +117,7 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="flex justify-center  text-sky-700 gap-14">
+            <div className="flex justify-center  text-sky-700 gap-14 max-xl:mt-12">
               <div>
                 <div>
                   <div>

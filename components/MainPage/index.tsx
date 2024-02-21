@@ -29,7 +29,7 @@ const MainPage = () => {
         </div>
 
         <div className="max-sm:mt-40">
-          <div className="bg-cyan-900 py-4 w-full h-[42rem] max-sm:h-[21rem]">
+          <div className="bg-cyan-900 py-4 w-full h-[40rem] max-sm:h-[21rem]">
             <h1 className=" text-center text-2xl text-slate-50 p-4 ">
               Servis Məntəqələrimiz
             </h1>
