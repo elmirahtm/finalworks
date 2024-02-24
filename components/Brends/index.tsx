@@ -17,7 +17,7 @@ const Brends = () => {
             </div>
 
             <div>
-              <span className="flex  justify-between gap-10 mt-10 max-sm:gap-2">
+              <span className="flex  justify-evenly gap-3 mt-10 max-sm:gap-2">
                 <span className="mt-6 max-sm:mt-0">
                   <IoIosArrowBack />
                 </span>

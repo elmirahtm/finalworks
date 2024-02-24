@@ -17,7 +17,7 @@ const HeaderRoutes = () => {
   return (
     <nav className=" p-4 bg-sky-700">
       <div className="container m-auto">
-        <div className=" flex justify-between text-slate-50 max-sm:block max-sm:text-center ">
+        <div className=" flex justify-evenly text-slate-50 max-sm:block max-sm:text-center ">
           {basliq.map(({ id, to, title }) => {
             return (
               <div key={id}>

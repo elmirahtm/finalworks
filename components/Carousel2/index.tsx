@@ -67,7 +67,7 @@ function Carousel2() {
                     <img className='w-80 h-96 px-1 max-sm:px-0 max-sm:-ml-4 max-sm:h-28' src={img} alt="" />
                   </div>
                   <div>
-                    <div className='bg-teal-950 text-warning-50 w-56 p-2  max-sm:bg-transparent max-sm:text-transparent'>{basliq}</div>
+                    <div className='bg-teal-950  text-warning-50 w-72 p-3   max-sm:bg-transparent max-sm:text-transparent  max-lg:bg-transparent max-lg:text-transparent  max-xl:bg-transparent max-xl:text-transparent'>{basliq}</div>
                   </div>
                 </div>
               </div>

@@ -5,7 +5,9 @@ import { HiOutlineMail } from "react-icons/hi";
 import { CgFacebook } from "react-icons/cg";
 import { FaInstagram } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa6";
-import { BsTelephone } from "react-icons/bs";
+import { BsFillTelephoneFill } from "react-icons/bs";
+
+import {  BsTelephone } from "react-icons/bs";
 import Link from "next/link";
 
 const Header = () => {
@@ -13,7 +15,7 @@ const Header = () => {
     <header>
       <div className=" bg-gray-800 text-cyan-50 p-4">
         <div className="container m-auto">
-          <div className="flex justify-between  max-sm:flex-wrap max-sm:flex-col  ">
+          <div className="flex justify-evenly  max-sm:flex-wrap max-sm:flex-col  ">
             <div className="flex gap-14  max-sm:justify-center max-sm:m-auto max-sm:mb-4">
               <h4>Servis məntəqələrimiz</h4>
               <h4>Tez-tez verilən suallar</h4>
@@ -52,9 +54,9 @@ const Header = () => {
           </div>
         </div>
       </div>
-      <div className="bg-slate-100 ">
+      <div className="bg-slate-100 max-sm:py-4">
         <div className="container m-auto">
-          <div className="flex justify-between items-center max-sm:flex-wrap max-sm:text-center max-sm:justify-center ">
+          <div className="flex justify-evenly items-center max-sm:flex-wrap max-sm:text-center max-sm:justify-center ">
             <div>
               <Link href={"/"}>
                 <span>
@@ -117,14 +119,14 @@ const Header = () => {
             <div className="mt-8">
           <Link href={"tel:180"}>
           <span>
-                <Image src="/daire.png" alt="daire" width={113} height={51} />
-                <div className="-mt-2 -ml-2">
-                  <span className="relative -top-9 left-5">
-                    <Image src="/call.png" alt="daire" width={31} height={29} />
-                  </span>
-                  <span className="relative -top-16 left-12 ">
-                    <Image src="/180.png" alt="180" width={51} height={28} />
-                  </span>
+          <div className="w-[113px] h-[50px] rounded-md bg-red-600"></div>
+                <div className="-mt-2 -ml-2  max-sm:absolute">
+                  <div className="relative -top-8  left-5">
+                 <div><BsFillTelephoneFill className="text-slate-100 text-xl" /></div>
+                  </div>
+                  <div className="relative -top-14 left-12 text-slate-100 text-2xl ">
+               <h1>180</h1>
+                  </div>
                 </div>
               </span></Link>
             </div>

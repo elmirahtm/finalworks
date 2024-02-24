@@ -20,7 +20,7 @@ const RepairInstall = () => {
             </div>
 
             <div className="">
-              <span className=" flex justify-between items-center gap-10 flex-wrap ">
+              <span className=" flex justify-evenly items-center gap-10 flex-wrap ">
                 <span className=" max-sm:m-auto max-lg:m-auto max-xl:m-auto">
                   <IoIosArrowBack />
                 </span>
@@ -48,7 +48,7 @@ const RepairInstall = () => {
               Quraşdırılma
             </h5>
 
-            <span className=" flex justify-between items-center gap-10 flex-wrap ">
+            <span className=" flex justify-evenly items-center gap-10 flex-wrap ">
               <span className=" max-sm:m-auto max-lg:m-auto max-xl:m-auto">
                 <IoIosArrowBack className="mt-5" />
               </span>
