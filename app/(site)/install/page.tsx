@@ -2,15 +2,9 @@ import Card4 from '@/components/Card4'
 import Footer from '@/components/Footer'
 import Header from '@/components/Header'
 import HeaderRoutes from '@/components/HeaderRoutes'
-import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-import { BsTelephone } from 'react-icons/bs'
-import { CgFacebook } from 'react-icons/cg'
-import { FaInstagram, FaWhatsapp } from 'react-icons/fa'
-import { FaAnglesRight } from 'react-icons/fa6'
-import { HiOutlineMail } from 'react-icons/hi'
-import { TbMapPin } from 'react-icons/tb'
+
 
 const Quraşdırma = () => {
   return (

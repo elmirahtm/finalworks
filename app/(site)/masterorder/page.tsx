@@ -7,13 +7,13 @@ import { FaArrowLeftLong } from "react-icons/fa6";
 const Ustasifarişi = () => {
   return (
   <div className="flex max-sm:block max-sm:-mt-20">
- <div className='bg-[url("/goy.jpg")] bg-no-repeat w-[40rem] h-[49.1rem]'>
+ <div className='bg-sky-600 w-[40rem] h-[49.1rem] max-sm:w-[60rem] max-md:w-[60rem] max-lg:w-[60rem] max-xl:w-[60rem]'>
         <Link href="/">
           <div className="flex text-white gap-4 rounded-md ml-36 mt-20">
             <span>
-              <FaArrowLeftLong className="mt-1" />
+              <FaArrowLeftLong className="mt-1 max-sm:mt-6" />
             </span>
-            <p>Geri qayıt</p>
+            <p className="max-sm:mt-5">Geri qayıt</p>
           </div>
         </Link>
         <div>
@@ -27,7 +27,7 @@ const Ustasifarişi = () => {
         </div>
       </div>
 
-     <div className=" bg-slate-100 w-[65rem] -ml-7 p-8">
+     <div className=" bg-slate-100 w-[65rem] -ml-7 p-8 max-sm:[40rem] max-md:w[40rem] max-lg:w-[40rem] max-xl:w-[40rem]">
                 <h1 className="text-3xl mb-5">Usta sifarişi</h1>
                
                 <form className="pt-5 ">
