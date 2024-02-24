@@ -1,4 +1,4 @@
-import Aboutfirstvideo from "@/components/Aboutfirst";
+import Aboutfirst from "@/components/Aboutfirst";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import HeaderRoutes from "@/components/HeaderRoutes";
@@ -32,7 +32,7 @@ const Haqqımızda = () => {
         <div className='bg-[url("/bg.png")] w-full -mt-28 h-[209rem] mb-10 max-sm:h-[240rem]'>
           <div>
             <div className="container m-auto max-sm:ml-0 ">
-              <div className="bg-white w-[1060px] h-[1140px] max-sm:h-[1215px] mb-20 -mt-10  m-auto shadow-xl p-5 max-sm:mb-20 max-sm:w-[30rem] max-sm:m-auto max-sm:pt-3">
+              <div className="bg-white w-[1060px] h-[1150px] max-sm:h-[1215px] mb-20 -mt-10  m-auto shadow-xl p-5 max-sm:mb-20 max-sm:w-[30rem] max-lg:w-[30rem] max-sm:m-auto max-sm:pt-3">
                 <span>
               <div>
       
@@ -44,14 +44,14 @@ const Haqqımızda = () => {
                   height={489}
                 />
                    <Link href={"/"}>
-                  <FaRegCirclePlay className="w-28 h-12 -mt-60 max-sm:-mt-32 m-auto " />
+                  <FaRegCirclePlay className="w-28 h-12 -mt-60  max-sm:-mt-32 m-auto max-lg:-mt-36 " />
                      </Link>  
                      </div>  
                 
                 </span>
 
                 <div>
-                  <Aboutfirstvideo />
+                  <Aboutfirst />
                 </div>
               </div>
             </div>

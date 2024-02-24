@@ -4,12 +4,7 @@ import HeaderRoutes from '@/components/HeaderRoutes'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-import { BsTelephone } from 'react-icons/bs'
-import { CgFacebook } from 'react-icons/cg'
-import { FaInstagram, FaWhatsapp } from 'react-icons/fa'
-import { FaAnglesRight } from 'react-icons/fa6'
-import { HiOutlineMail } from 'react-icons/hi'
-import { TbMapPin } from 'react-icons/tb'
+
 
 const Çatdırılma = () => {
   return (
@@ -30,13 +25,13 @@ const Çatdırılma = () => {
 
     <div className='container m-auto'>
     <div className='bg-[url("/bg.png")] w-full -mt-11 h-[79rem] mb-10 max-sm:h-[80rem] max-sm:w-[25rem]'>
-<div className='bg-white w-[1060px] h-[840px] m-auto shadow-xl p-5 max-sm:w-[20rem] max-sm:pt-3'>
+<div className='bg-white w-[1060px] h-[840px] m-auto shadow-xl p-5 max-sm:w-[20rem]  max-lg:w-[30rem] max-sm:pt-3'>
   <Image className='m-auto ' src="/solitoncar.png" alt='car' width={944} height={489}/>
  <div className=' p-2 ml-5 '>
  <h1 className='font-bold text-2xl mt-2'>Çatdırılma</h1>
-  <p className='w-[63rem] mt-3 max-sm:w-[15rem]'>"Soliton Service"  Soliton mağazalar şəbəkəsindən satılan məişət əşyalarının Bakı və Abşeron 
+  <p className='w-[63rem] mt-3 max-sm:w-[15rem] max-sm:-ml-2 max-lg:w-[30rem] max-lg:text-center max-lg:-ml-10 max-xl:w-[50rem]'>"Soliton Service"  Soliton mağazalar şəbəkəsindən satılan məişət əşyalarının Bakı və Abşeron 
     yarımadasina 72 saat ərzində çatdırılasını təmin edir.</p>
-    <p className='w-[65rem] mt-5  max-sm:w-[15rem]'>Çatdırılma xidməti həftənin bütün günləri fəaliyyət göstərir."Soliton Service" əməkdaşları müştərilərlə əlaqə saxlayaraq uyğun zaman ərzində məhsulu ünvana çatdırırlar.Alınan məhsulların
+    <p className='w-[65rem] mt-5  max-sm:w-[15rem] max-sm:-ml-2 max-lg:w-[30rem] max-lg:text-center max-lg:-ml-10 max-xl:w-[60rem]'>Çatdırılma xidməti həftənin bütün günləri fəaliyyət göstərir."Soliton Service" əməkdaşları müştərilərlə əlaqə saxlayaraq uyğun zaman ərzində məhsulu ünvana çatdırırlar.Alınan məhsulların
        qəbulu alıcıların iştirakı ilə tam yoxlanılaraq həyata keçirilir.</p>
  </div>
  <div>

@@ -5,10 +5,10 @@ const Aboutfirst = () => {
   return (
     <div>
         <div className="ml-6 mt-32 max-sm:mt-0">
-                <h1 className="text-2xl pt-24 font-bold max-sm:ml-12">
+                <h1 className="text-2xl pt-24 font-bold max-sm:ml-12 max-lg:-mt-24">
                   "Lider Service" haqqında
                 </h1>
-                <p className="w-[44rem] max-sm:w-80 max-sm:text-justify max-sm:ml-8">
+                <p className="w-[44rem] max-sm:w-80 max-lg:w-80 max-sm:text-justify max-sm:ml-8">
                   "Lider Service" təcrübəli mutəxəssislər və konsultantlar
                   komandasıdır ki, hər bir texniki problemdə sizə köməklik
                   göstərməyə hazırdılar. Aldığınız malda istənilən nasazlıq
@@ -19,9 +19,9 @@ const Aboutfirst = () => {
                   Zəmanət müddəti ərzində hər hansı bir detal çatışmamazlığı ilə
                   yaranan problemlər servis tərəfindən pulsuz həll olunur.{" "}
                 </p>
-                <span className="flex justify-around mt-20 max-sm:block">
+                <span className="flex justify-around mt-20 max-sm:block max-lg:block">
                   <div className="flex max-sm:mt-8 ">
-                    <span className="mr-7 max-sm:hidden">
+                    <span className="mr-7 max-sm:hidden max-lg:hidden">
                       <Image
                         className="bg-slate-300  p-2 w-10 h-10 rounded-xl mt-3 "
                         src="/setting.png"
@@ -44,7 +44,7 @@ const Aboutfirst = () => {
                     </div>
                   </div>
                   <div className="flex max-sm:mt-8 ">
-                    <span className="mr-7 max-sm:hidden">
+                    <span className="mr-7 max-sm:hidden max-lg:hidden">
                       <Image
                         className="bg-slate-300 p-2 w-10 h-10 rounded-xl mt-3  "
                         src="/tamamlan.png"
@@ -57,7 +57,7 @@ const Aboutfirst = () => {
                       <h4 className="text-xl mt-3 font-bold  max-sm:ml-24">
                         Zəmanət qüvvəsi
                       </h4>
-                      <p className="w-[30rem] max-sm:w-[20rem] max-sm:text-justify max-sm:ml-8 ">
+                      <p className="w-[30rem] max-sm:w-[20rem] max-lg:w-[25rem] max-sm:text-justify max-sm:ml-8 ">
                         Soliton mağazalar şəbəkəsi öz məhsullarına yüksək
                         keyfiyyət verir və bütün məhsullarına 1 ildən 3 ilədək
                         zəmanət təklif edir. Biz sizə pulsuz çatdırılma və
