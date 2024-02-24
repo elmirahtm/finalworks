@@ -1,4 +1,4 @@
-import Aboutfirstvideo from "@/components/Aboutfirstvideo";
+import Aboutfirstvideo from "@/components/Aboutfirst";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import HeaderRoutes from "@/components/HeaderRoutes";
@@ -7,6 +7,7 @@ import Serviccenter from "@/components/Serviccenter";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import { FaRegCirclePlay } from "react-icons/fa6";
 
 const Haqqımızda = () => {
   return (
@@ -33,28 +34,20 @@ const Haqqımızda = () => {
             <div className="container m-auto max-sm:ml-0 ">
               <div className="bg-white w-[1060px] h-[1140px] max-sm:h-[1215px] mb-20 -mt-10  m-auto shadow-xl p-5 max-sm:mb-20 max-sm:w-[30rem] max-sm:m-auto max-sm:pt-3">
                 <span>
-                  <video
-                    className="m-auto max-sm:w-[350px] "
-                    width={"944"}
-                    height={"190"}
-                    controls
-                  >
-                    <source src="/videomaster.mp4" type="video/mp4" />
-
-                    {/* <div>
-          {" "}
-                {/* <Image
+              <div>
+      
+                <Image
                   className="m-auto "
                   src="/ismaster.png"
                   alt="ismaster"
                   width={944}
                   height={489}
-                /> */}
-                    {/* <Link href={"/about"}>
-                  {/* <FaRegCirclePlay className="w-28 h-12 -mt-60 max-sm:-mt-32 m-auto " /> */}
-                    {/* </Link>  */}
-                    {/* </div>  */}
-                  </video>
+                />
+                   <Link href={"/"}>
+                  <FaRegCirclePlay className="w-28 h-12 -mt-60 max-sm:-mt-32 m-auto " />
+                     </Link>  
+                     </div>  
+                
                 </span>
 
                 <div>
