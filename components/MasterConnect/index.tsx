@@ -18,8 +18,8 @@ const MasterConnect = () => {
           <div className="bg-sky-900 h-[45rem] max-sm:bg-transparent max-lg:bg-transparent max-sm:mb-[33rem] max-lg:mb-[33rem]">
             <div className="container m-auto  ">
               <div className="flex justify-center max-sm:text-center max-sm:block max-lg:block max-sm:-ml-20 ">
-                <div className="bg-slate-200 w-[53%] h-[22.8rem] px-2  mt-10 max-sm:ml-0 max-sm:mb-0 max-sm:w-[30rem] max-sm:h-[35rem] max-lg:w-full max-lg:h-[23.4rem] max-xl:h-[23.4rem]  ">
-                  <div className="ml-4 mt-7 ">
+                <div className="bg-slate-200 w-[53%] h-[22.8rem] px-2  mt-10 max-sm:ml-0 max-sm:mb-0 max-sm:w-[30rem] max-sm:h-[35rem] max-lg:w-full max-lg:h-full max-xl:h-full  ">
+                  <div className="">
                     <h1 className="text-3xl mb-5 ">Usta sifarişi</h1>
                     <p className="w-[30rem] max-sm:w-[20rem] max-sm:m-auto">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.

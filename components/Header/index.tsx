@@ -56,7 +56,7 @@ const Header = () => {
       </div>
       <div className="bg-slate-100 max-sm:py-4">
         <div className="container m-auto">
-          <div className="flex justify-evenly items-center max-sm:flex-wrap max-sm:text-center max-sm:justify-center ">
+          <div className="flex justify-evenly items-center mx-20  max-sm:flex-wrap max-sm:text-center max-sm:justify-center ">
             <div>
               <Link href={"/"}>
                 <span>
