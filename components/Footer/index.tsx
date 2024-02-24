@@ -119,9 +119,9 @@ const Footer = () => {
 
             <div className="flex justify-center  text-sky-700 gap-14 max-xl:mt-12">
               <div>
-                <div>
+                <div className="max-sm:-ml-14 max-lg:-ml-14">
                   <div>
-                    <h1 className="text-2xl font-bold text-black p-6 -mt-16 max-sm:mt-10">
+                    <h1 className="text-2xl font-bold -ml-6 text-black p-6 -mt-16 max-sm:mt-10">
                       Əlaqə
                     </h1>
                   </div>
@@ -168,7 +168,7 @@ const Footer = () => {
               </div>
             </div>
 
-            <div>
+            <div className="max-sm:-ml-4">
               <span className="flex m-5 gap-3 ">
                 <TbMapPin className=" text-sky-700 mt-0.5" />
                 <Link href={"https://maps.app.goo.gl/KWS67w3JSZ6xxFLh7"} target="_blank">Bakı ş., Şamaxı yolu 15-ci km.</Link>
@@ -192,10 +192,10 @@ const Footer = () => {
           <div className="border w-[1300px] m-auto mt-6 "></div>
           <div className="flex justify-between mt-3 max-sm:gap-3  max-sm:justify-center ">
             <div className="ml-24">
-              <p className="max-sm:w-[13rem]"> © Lider Service - 2022. Müəllif hüquqları qorunur.</p>
+              <p className="max-sm:w-[13rem] max-lg:w-[13rem] max-xl:w-[13rem]"> © Lider Service - 2022. Müəllif hüquqları qorunur.</p>
             </div>
             <div className="mr-24">
-              <p className="max-sm:w-[12rem]">Sayt Jedai tərəfindən yaradılmışdır.</p>
+              <p className="max-sm:w-[12rem] max-lg:w-[12rem]  max-xl:w-[12rem] ">Sayt Jedai tərəfindən yaradılmışdır.</p>
             </div>
           </div>
         </div>
