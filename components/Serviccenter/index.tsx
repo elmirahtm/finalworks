@@ -60,7 +60,7 @@ const Serviccenter = () => {
                 </div>
               </div>
               <div className="relative  ">
-                <div className="border-2 border-blue-300 absolute right-28  top-12 w-[350px] h-[438px] max-sm:hidden max-lg:hidden max-xl:hidden max-sm:left-12 max-sm:-mt-20 "></div>
+                <div className="border-2 border-blue-300 absolute right-32  top-12 w-[350px] h-[438px] max-sm:hidden max-lg:hidden max-xl:hidden max-sm:left-12 max-sm:-mt-20 "></div>
                 <div>
                   <Image
                     className="mt-20  -ml-24 max-sm:ml-4 max-lg:hidden max-xl:hidden"

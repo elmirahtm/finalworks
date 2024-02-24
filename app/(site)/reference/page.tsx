@@ -4,12 +4,7 @@ import HeaderRoutes from '@/components/HeaderRoutes'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-import { BsTelephone } from 'react-icons/bs'
-import { CgCheckO, CgCloseO, CgFacebook } from "react-icons/cg";
-import { FaInstagram, FaWhatsapp } from 'react-icons/fa'
-import { FaAnglesRight } from 'react-icons/fa6'
-import { HiOutlineMail } from 'react-icons/hi'
-import { TbMapPin } from 'react-icons/tb'
+import { CgCheckO, CgCloseO } from "react-icons/cg";
 import { VscDebugBreakpointLog } from 'react-icons/vsc'
 
 
@@ -31,8 +26,8 @@ const  Zəmanət = () => {
       </div> 
 
 <div className='container m-auto'>
-<div className='bg-slate-100 w-[64rem] p-5 m-auto mb-60 -mt-11 shadow-xl  '>
-  <div className='ml-8 w-[92ch] max-sm:w-[30ch]  max-sm:text-center'>
+<div className='bg-slate-100 w-[64rem] max-sm:w-[27rem] max-sm:-ml-8 max-lg:-ml-6  max-lg:w-[40rem] p-5 m-auto mb-60  max-sm:mb-80 -mt-11 shadow-xl  '>
+  <div className='ml-8 w-[92ch] max-sm:w-[30ch] max-lg:w-[60ch]  max-sm:text-center'>
     <div><h1 className='font-bold text-2xl'>Zəmanət Şərtləri</h1></div>
 <div className='text-xl mt-8'>
 <p className='text-lg font-bold' >HÖRMƏTLİ  ALICI ! ZƏMANƏT TALONUNU OXUDUQDAN SONRA İMZALAYIN !</p>
@@ -69,10 +64,7 @@ const  Zəmanət = () => {
 <span><CgCheckO className=' w-12 h-5' /></span>
   <p>ZƏMANƏT  ŞƏRTLƏRİNƏ AİDDİR !</p>
 </div>
-<div className='max-sm:w-80'>
-<p className='mt-4 max-sm:-ml-3'> İri həcmli məişət texnikalarının (Soyuducu,paltaryuyan,qabyuyan,paltarqurudan,qaz peçləri,soba,bişirmə paneli,aspirator,televizor,dondurucu,sərinləşdirici,elektrikli və qazlı su qızdırıcısı,kombi,kondisioner ) 3(üç) illik zəmanəti . Televizor panellərinin zəmanət müddəti isə 18 (on səkkiz) aydır (BEKO,BLOMBERG,GRUNDİG markalarında).</p>
 
-  </div>
   <div>
   <p className='mt-4 flex'> <VscDebugBreakpointLog />
 Məhsulda yerləşən hissələrin ( istifadə qaydalarına riayət olunduğu , lazımi parametrlərin düzgün təmin edildiyi halda ) sıradan çıxanlarının yenisi ilə əvəz olunması .</p>

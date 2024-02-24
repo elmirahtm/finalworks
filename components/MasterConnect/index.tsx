@@ -1,3 +1,4 @@
+"use client"
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
 import React from 'react'
@@ -18,7 +19,7 @@ const MasterConnect = () => {
           <div className="bg-sky-900 h-[45rem] max-sm:bg-transparent max-lg:bg-transparent max-sm:mb-[33rem] max-lg:mb-[33rem]">
             <div className="container m-auto  ">
               <div className="flex justify-center max-sm:text-center max-sm:block max-lg:block max-sm:-ml-20 ">
-                <div className="bg-slate-200 w-[53%] h-[22.8rem] px-2  mt-10 max-sm:ml-0 max-sm:mb-0 max-sm:w-[30rem] max-sm:h-[35rem] max-lg:w-full max-lg:h-full max-xl:h-full ">
+                <div className="bg-slate-200 w-[53%] h-[22.8rem] p-2 mt-10 max-sm:ml-0 max-sm:mb-0 max-sm:w-[30rem] max-sm:h-[35rem] max-lg:w-full max-lg:h-full max-xl:h-full ">
                   <div className="ml-6 mt-4">
                     <h1 className="text-3xl mb-5 ">Usta sifarişi</h1>
                     <p className="w-[30rem] max-sm:w-[20rem] max-sm:m-auto">
@@ -80,7 +81,7 @@ const MasterConnect = () => {
                   </div>
                 </div>
 
-                <div className="bg-blue-700  w-[40%] h-[22.8rem]   mt-10 text-white  max-sm:-mt-28 max-sm:w-[30rem] max-sm:h-[29rem] max-lg:h-[23.4rem] max-lg:w-full max-xl:h-[18.2rem] ">
+                <div className="bg-blue-700  w-[40%] h-[22.8rem] p-2  mt-10 text-white  max-sm:-mt-28 max-sm:w-[30rem] max-sm:h-[29rem] max-lg:h-[23.4rem] max-lg:w-full max-xl:h-[20rem] ">
                   <h1 className="text-3xl p-5">Əlaqə</h1>
                   <div className=" container m-auto max-sm:-flex max-sm:flex-col max-sm:justify-center max-sm:ml-28 ">
                   <span className="flex m-5 ">

@@ -12,7 +12,7 @@ const Footer = () => {
   return (
     <div>
       <div className=" mb-4  bg-slate-50 -mt-52 max-sm:w-[30rem] ">
-        <div className="container m-auto ">
+        <div className="container m-auto  max-sm:ml-32 ">
           <div
             className="flex justify-evenly items-center -mt-32 m-auto max-lg:gap-4 max-lg:flex-col max-xl:gap-6  max-sm:flex-col max-sm:text-center p-8 
         max-sm:mt-40
