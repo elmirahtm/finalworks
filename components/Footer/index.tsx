@@ -12,9 +12,9 @@ const Footer = () => {
   return (
     <div>
       <div className=" mb-4  bg-slate-50 -mt-52 max-sm:w-[30rem] ">
-        <div className="container m-auto  max-sm:ml-32 ">
+        <div className="container m-auto    ">
           <div
-            className="flex justify-evenly items-center -mt-32 m-auto max-lg:gap-4 max-lg:flex-col max-xl:gap-6  max-sm:flex-col max-sm:text-center p-8 
+            className="flex justify-evenly items-center -mt-32 m-auto max-lg:gap-4 max-lg:flex-col max-lg:justify-center max-xl:gap-6  max-sm:flex-col max-sm:justify-center max-sm:text-center p-8 
         max-sm:mt-40
         "
           >
@@ -189,8 +189,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="border w-[1300px] m-auto mt-6 "></div>
-          <div className="flex justify-between mt-3 max-sm:gap-3  max-sm:justify-center ">
+          <div className="flex justify-between text-slate-500 mt-3 max-sm:gap-3  max-sm:justify-center ">
             <div className="ml-24">
               <p className="max-sm:w-[13rem] max-lg:w-[13rem] max-xl:w-[13rem]"> © Lider Service - 2022. Müəllif hüquqları qorunur.</p>
             </div>

@@ -31,7 +31,7 @@ const QuickQuestion = () => {
               <div className="w-[49%]">
                 <div className="">
                   <div>
-                    <h1 className="font-bold text-3xl mb-5 mt-10  max-sm:pt-28 max-sm:w-[30rem]">
+                    <h1 className="font-bold text-3xl mb-5 mt-10  max-sm:pt-28 max-sm:w-[15rem]">
                       Tez-tez verilən suallar
                     </h1>
                   </div>

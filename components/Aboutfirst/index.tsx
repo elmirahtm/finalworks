@@ -4,7 +4,7 @@ import React from 'react'
 const Aboutfirst = () => {
   return (
     <div>
-        <div className="ml-6 mt-32 max-sm:mt-0">
+        <div className="ml-6 mt-32 max-sm:mt-25">
                 <h1 className="text-2xl pt-24 font-bold max-sm:ml-12 max-lg:-mt-24">
                   "Lider Service" haqqında
                 </h1>
