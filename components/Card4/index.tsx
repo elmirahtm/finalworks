@@ -60,7 +60,7 @@ const Card4 = () => {
 
    <div>
    <div>
-    <div className="flex justify-center items-center gap-5 mt-14   max-sm:flex-wrap ">
+    <div className="flex justify-center items-center gap-5 mt-14   max-sm:flex-wrap max-md:flex-wrap max-lg:flex-wrap max-xl:flex-wrap">
 <div className=" bg-slate-300 w-60 h-64  flex flex-col relative items-center rounded-md">
          <h2 className="mt-5 text-xl">Qaz Sobası</h2>
          <Image className="mt-5"  src="/qazsobasi.png" alt="qazsobasi" width={90} height={90} />
@@ -121,7 +121,7 @@ const Card4 = () => {
 
 
    <div>
-   <div className="flex justify-center items-center gap-5 mt-14   max-sm:flex-wrap ">
+   <div className="flex justify-center items-center gap-5 mt-14   max-sm:flex-wrap max-md:flex-wrap max-lg:flex-wrap max-xl:flex-wrap">
 <div className=" bg-slate-300 w-60 h-64  flex flex-col relative items-center rounded-md">
          <h2 className="mt-5 text-xl text-center">PALTARQURUDAN MAŞIN</h2>
          <Image className=""  src="/paltarqurudan.png" alt="paltarqurudan" width={100} height={90} />
@@ -143,8 +143,8 @@ const Card4 = () => {
          </Link>
        </div>
 <div className=" bg-slate-300 w-60 h-64  flex flex-col relative items-center rounded-md">
-         <h2 className="mt-1 text-xl">ELEKTRİK SU QIZDIRICISI</h2>
-         <Image className="mt-5"  src="/elektriksu.png" alt="elektriksu" width={135} height={90} />
+         <h2 className="mt-1 text-xl text-center w-40">ELEKTRİK SU QIZDIRICISI</h2>
+         <Image className="mt-2"  src="/elektriksu.png" alt="elektriksu" width={135} height={90} />
          <Link
            className="w-[80px] h-[40px]  rounded-tl-[80px] rounded-tr-[80px] bg-slate-100 absolute bottom-0  flex justify-center items-center  "
            href={"#"}
