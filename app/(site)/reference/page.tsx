@@ -26,7 +26,7 @@ const  Zəmanət = () => {
       </div> 
 
 <div className='container m-auto'>
-<div className='bg-slate-100 w-[64rem] max-sm:w-[27rem] max-sm:-ml-8 max-lg:-ml-6  max-lg:w-[40rem] p-5 m-auto mb-60  max-sm:mb-80 -mt-11 shadow-xl  '>
+<div className='bg-slate-100 w-[62rem] max-sm:w-[27rem] max-sm:-ml-8 max-lg:-ml-6  max-lg:w-[40rem] p-5 m-auto mb-60  max-sm:mb-80 -mt-11 shadow-xl  '>
   <div className='ml-8 w-[92ch] max-sm:w-[30ch] max-lg:w-[60ch]  max-sm:text-center'>
     <div><h1 className='font-bold text-2xl'>Zəmanət Şərtləri</h1></div>
 <div className='text-xl mt-8'>
