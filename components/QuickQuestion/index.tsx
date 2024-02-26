@@ -7,7 +7,7 @@ const QuickQuestion = () => {
     <div>
         <div>
           {/* <div className="bg-[url('/bg.png')] bg-no-repeat w-full h-[45rem] mt-8 mb-10 max-sm:mb-96"> */}
-          <div className="container m-auto">
+          <div className="container m-auto max-sm:ml-3">
             <div className="flex justify-center items-center gap-32 mb-40  max-sm:block max-sm:p-5 ">
               <div>
                 <span>

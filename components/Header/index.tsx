@@ -65,15 +65,15 @@ const Header = () => {
               </Link>
             </div>
 
-            <div className="flex justify-center  text-sky-700 gap-14 max-sm:mt-4">
-              <div>
-                <div className="flex ">
+            <div className="flex justify-center  text-sky-700 gap-14 max-sm:mt-4 max-md:gap-4 max-lg:gap-6">
+              <div className="max-md:my-6   ">
+                <div className="flex  ">
                   <span>
                     <BsTelephone />
                   </span>
                   <Link
                     href={"tel:+994 12 565-1-565"}
-                    className="text-black ml-2"
+                    className="text-black ml-2 max-sm:w-[8rem]"
                   >
                     (+994 12) 565-1-565
                   </Link>
@@ -84,20 +84,20 @@ const Header = () => {
                   </span>
                   <Link
                     href={"tel:+994 12 565-2-565"}
-                    className="text-black ml-2"
+                    className="text-black ml-2 max-sm:w-[8rem]"
                   >
                     (+994 12) 565-2-565
                   </Link>
                 </div>
               </div>
-              <div>
+              <div className="max-md:my-6  ">
                 <div className="flex">
                   <span>
                     <BsTelephone />
                   </span>
                   <Link
                     href={"tel:+994 55 222-34-19"}
-                    className="text-black ml-2"
+                    className="text-black ml-2 max-sm:w-[9rem]"
                   >
                     (+994 55) 222-34-19
                   </Link>
@@ -108,7 +108,7 @@ const Header = () => {
                   </span>
                   <Link
                     href={"tel:+994 55 222-32-46 "}
-                    className="text-black ml-2"
+                    className="text-black ml-2 max-sm:w-[9rem]"
                   >
                     (+994 55) 222-32-46{" "}
                   </Link>
