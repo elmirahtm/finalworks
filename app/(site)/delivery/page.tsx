@@ -23,7 +23,7 @@ const Çatdırılma = () => {
 </div>
       </div> 
 
-    <div className='container m-auto'>
+    <div className='container m-auto max-sm:ml-9'>
     <div className='bg-[url("/bg.png")] w-full -mt-11 h-[79rem] mb-10 max-sm:h-[80rem] max-sm:w-[25rem]'>
 <div className='bg-white w-[1060px] h-[840px] m-auto shadow-xl p-5 max-sm:w-[20rem]  max-lg:w-[30rem] max-sm:pt-3'>
   <Image className='m-auto ' src="/solitoncar.png" alt='car' width={944} height={489}/>
