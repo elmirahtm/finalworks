@@ -32,7 +32,7 @@ const Haqqımızda = () => {
         <div className='bg-[url("/bg.png")] w-full -mt-28 h-[209rem] mb-10 max-sm:h-[240rem]'>
           <div>
             <div className="container m-auto max-sm:ml-0 ">
-              <div className="bg-white w-[1060px] h-[1150px] max-sm:h-[1215px] mb-20 -mt-10  m-auto shadow-xl p-5 max-sm:mb-20 max-sm:w-[30rem] max-lg:w-[30rem] max-xl:w-[1007px] max-sm:m-auto max-sm:pt-3">
+              <div className="bg-white w-[1060px] h-[1150px] max-sm:h-[1222px] mb-20 -mt-10  m-auto shadow-xl p-5 max-sm:mb-20 max-sm:w-[30rem] max-lg:w-[30rem] max-xl:w-[1007px] max-sm:m-auto max-sm:pt-3">
                 <span>
               <div>
       
