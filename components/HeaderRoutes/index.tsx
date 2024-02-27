@@ -16,12 +16,12 @@ const HeaderRoutes = () => {
   const basliq = [
     { id: 1, to: "/", title: "Əsas Səhifə" },
     { id: 2, to: "/repair", title: "Təmir" },
-    { id: 3, to: "/Install", title: "Quraşdırma" },
+    { id: 3, to: "/fiction", title: "Quraşdırma" },
     { id: 4, to: "/masterorder", title: "Usta Sifarişi" },
     { id: 5, to: "/delivery", title: "Çatdırılma" },
     { id: 6, to: "/reference", title: "Zəmanət" },
     { id: 7, to: "/about", title: "Haqqımızda" },
-    { id: 8, to: "/connect", title: "Əlaqə" },
+    { id: 8, to: "/connect", title: "Əlaqə" }
   ];
 
   const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(
