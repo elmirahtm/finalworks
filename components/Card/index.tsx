@@ -5,6 +5,7 @@ import { FaArrowRight } from "react-icons/fa6";
 import Aos from 'aos'
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+
 const Card = () => {
   useEffect(() => {
     Aos.init();

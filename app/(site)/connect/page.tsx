@@ -1,14 +1,21 @@
+"use client"
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import HeaderRoutes from "@/components/HeaderRoutes";
 import MapItem from "@/components/MapItem";
 import Link from "next/link";
-import React from "react";
+import React, { useEffect } from "react";
 import { BsTelephone } from "react-icons/bs";
 import { HiOutlineMail } from "react-icons/hi";
 import { TbMapPin } from "react-icons/tb";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Əlaqə = () => {
+  useEffect(() => {
+    Aos.init();
+    Aos.refresh();
+  }, []);
   return (
     <div>
       <Header />
@@ -29,7 +36,7 @@ const Əlaqə = () => {
 
       <div className='bg-[url("/bg.png")] w-full -mt-28 h-[79rem] mb-10 max-sm:h-[80rem]'>
         <div className="flex justify-center p-10  gap-14 max-sm:block">
-          <div>
+          <div data-aos="flip-up">
             <div className="bg-slate-100 w-72 p-2 pb-8 max-sm:mb-5 ">
               <div className="flex ml-4">
                 <span className="mt-8">
@@ -84,7 +91,7 @@ const Əlaqə = () => {
               </div>
             </div>
           </div>
-          <div className="block mt-3">
+          <div data-aos="flip-up" className="block mt-3">
             <div className=" bg-slate-100 h-32 p-5">
               <div className="flex gap-3 ">
                 <TbMapPin className=" mt-0.5 text-blue-600" />
