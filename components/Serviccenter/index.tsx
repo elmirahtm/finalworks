@@ -1,7 +1,13 @@
+"use client"
 import Image from 'next/image'
-import React from 'react'
-
+import React, { useEffect } from 'react'
+import Aos from 'aos';
+import "aos/dist/aos.css";
 const Serviccenter = () => {
+  useEffect(() => {
+    Aos.init();
+    Aos.refresh();
+  }, []);
   return (
     <div>
          <div className="flex justify-center max-sm:block max-sm:bg-white max-sm:h-[110rem] max-sm:ml-0">
@@ -59,9 +65,9 @@ const Serviccenter = () => {
                   </div>
                 </div>
               </div>
-              <div className="relative  ">
-                <div className="border-2 border-blue-300 absolute right-32  top-12 w-[350px] h-[438px] max-sm:hidden max-lg:hidden max-xl:hidden max-sm:left-12 max-sm:-mt-20 "></div>
-                <div>
+              <div data-aos="zoom-in"  className="relative  ">
+                <div  className="border-2 border-blue-300 absolute right-32  top-12 w-[350px] h-[438px] max-sm:hidden max-lg:hidden max-xl:hidden max-sm:left-12 max-sm:-mt-20 "></div>
+                <div >
                   <Image
                     className="mt-20  -ml-24 max-sm:ml-4 max-lg:hidden max-xl:hidden"
                     src="/qulaqliq.png"

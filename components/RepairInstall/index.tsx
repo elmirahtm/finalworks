@@ -13,7 +13,7 @@ const RepairInstall = () => {
           <div>
             <div className="">
               {/* <p className=" bg-red-600  w-16 h-2  "></p> */}
-              <h5 className="animate-bounce pt-12  mb-8 relative text-center text-2xl font-bold ">
+              <h5 className=" pt-12  mb-8 relative text-center text-2xl font-bold ">
                 Təmir
               </h5>
               {/* <p className="  bg-red-600  w-16 h-2 absolute right-96 -mt-12  mr-56 "></p> */}
@@ -44,7 +44,7 @@ const RepairInstall = () => {
           </div>
 
           <div>
-            <h5 className="animate-bounce pt-12  mb-8 relative text-center text-2xl font-bold ">
+            <h5 className=" pt-12  mb-8 relative text-center text-2xl font-bold ">
               Quraşdırılma
             </h5>
 

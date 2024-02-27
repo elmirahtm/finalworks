@@ -1,14 +1,23 @@
+"use client"
 import Image from 'next/image'
 import Link from 'next/link'
-import React from 'react'
+import React, { useEffect } from 'react'
 import { FaArrowRight } from 'react-icons/fa'
+import Aos from 'aos'
+import "aos/dist/aos.css";
 
 const Card4 = () => {
+  useEffect(() => {
+    Aos.init();
+    Aos.refresh();
+  }, []);
   return (
     <div>
         <div className="flex justify-center  items-center gap-5 mt-14   max-sm:flex-wrap max-md:flex-wrap max-lg:flex-wrap max-xl:flex-wrap">
 
-      <div className=" bg-slate-300 w-60 h-64  flex flex-col relative items-center rounded-md">
+      <div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000" className=" bg-slate-300 w-60 h-64  flex flex-col relative items-center rounded-md">
       <h2 className="mt-5 text-xl">Paltaryuyan</h2>
       <Image className="mt-5"  src="/paltaryuyan.png" alt="paltaryuyan" width={150} height={157} />
       <Link
@@ -21,7 +30,9 @@ const Card4 = () => {
 
 
 
-    <div className=" bg-slate-300 w-60 h-64  flex flex-col relative items-center rounded-md">
+    <div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000" className=" bg-slate-300 w-60 h-64  flex flex-col relative items-center rounded-md">
       <h2 className="mt-5 text-xl">QABYUYAN</h2>
       <Image className="mt-5"  src="/qabyuyan.png" alt="qabyuyan" width={140} height={152} />
       <Link
@@ -32,7 +43,9 @@ const Card4 = () => {
       </Link>
     </div>
 
-    <div className=" bg-slate-300 w-60 h-64  flex flex-col relative items-center rounded-md">
+    <div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000" className=" bg-slate-300 w-60 h-64  flex flex-col relative items-center rounded-md">
          <h2 className="mt-5 text-xl">ELEKTRİK SOBASI</h2>
          <Image className="mt-5 "  src="/elektrik.png" alt="soyud" width={145} height={144} />
          <Link
@@ -44,7 +57,9 @@ const Card4 = () => {
        </div> 
 
 
-    <div className=" bg-slate-300 w-60 h-64 flex flex-col relative items-center rounded-md ">
+    <div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000" className=" bg-slate-300 w-60 h-64 flex flex-col relative items-center rounded-md ">
       <h2 className="mt-5 text-xl">KONDİSİONER</h2>
       <Image className="mt-5 " src="/kondisioner.png" alt="kondisioner" width={200} height={150} />
       <Link
@@ -61,7 +76,9 @@ const Card4 = () => {
    <div>
    <div>
     <div className="flex justify-center items-center gap-5 mt-14   max-sm:flex-wrap max-md:flex-wrap max-lg:flex-wrap max-xl:flex-wrap">
-<div className=" bg-slate-300 w-60 h-64  flex flex-col relative items-center rounded-md">
+<div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000" className=" bg-slate-300 w-60 h-64  flex flex-col relative items-center rounded-md">
          <h2 className="mt-5 text-xl">Qaz Sobası</h2>
          <Image className="mt-5"  src="/qazsobasi.png" alt="qazsobasi" width={90} height={90} />
          <Link
@@ -71,7 +88,9 @@ const Card4 = () => {
            <FaArrowRight className='text-blue-500' />
          </Link>
        </div>
-    <div className=" bg-slate-300 w-60 h-64  flex flex-col relative items-center rounded-md">
+    <div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000" className=" bg-slate-300 w-60 h-64  flex flex-col relative items-center rounded-md">
          <h2 className="mt-5 text-xl">QAZ SU QIZDIRICISI</h2>
          <Image className="mt-5"  src="/qazsu.png" alt="qazsu" width={100} height={130} />
          <Link
@@ -84,7 +103,9 @@ const Card4 = () => {
   
 
    
-        <div className=" bg-slate-300 w-60 h-64  flex flex-col relative items-center rounded-md">
+        <div  data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000" className=" bg-slate-300 w-60 h-64  flex flex-col relative items-center rounded-md">
          <h2 className="mt-5 text-xl">ASPİRATOR</h2>
          <Image className="mt-5 "  src="/aspirator.png" alt="aspirator" width={145} height={144} />
          <Link
@@ -95,7 +116,9 @@ const Card4 = () => {
          </Link>
        </div> 
    
-        <div className=" bg-slate-300 w-60 h-64  flex flex-col relative items-center rounded-md">
+        <div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000" className=" bg-slate-300 w-60 h-64  flex flex-col relative items-center rounded-md">
          <h2 className="mt-5 text-xl">Peyk</h2>
          <Image className="mt-5 "  src="/peyk.png" alt="peyk" width={135} height={144} />
          <Link
@@ -122,7 +145,9 @@ const Card4 = () => {
 
    <div>
    <div className="flex justify-center items-center gap-5 mt-14   max-sm:flex-wrap max-md:flex-wrap max-lg:flex-wrap max-xl:flex-wrap">
-<div className=" bg-slate-300 w-60 h-64  flex flex-col relative items-center rounded-md">
+<div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000" className=" bg-slate-300 w-60 h-64  flex flex-col relative items-center rounded-md">
          <h2 className="mt-5 text-xl text-center">PALTARQURUDAN MAŞIN</h2>
          <Image className=""  src="/paltarqurudan.png" alt="paltarqurudan" width={100} height={90} />
          <Link
@@ -132,7 +157,9 @@ const Card4 = () => {
            <FaArrowRight className='text-blue-500' />
          </Link>
        </div>
-<div className=" bg-slate-300 w-60 h-64  flex flex-col relative items-center rounded-md">
+<div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000" className=" bg-slate-300 w-60 h-64  flex flex-col relative items-center rounded-md">
          <h2 className="mt-5 text-xl">Soyuducu</h2>
          <Image className="mt-5"  src="/soyud.png" alt="soyud" width={140} height={90} />
          <Link
@@ -142,7 +169,9 @@ const Card4 = () => {
            <FaArrowRight className='text-blue-500' />
          </Link>
        </div>
-<div className=" bg-slate-300 w-60 h-64  flex flex-col relative items-center rounded-md">
+<div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000" className=" bg-slate-300 w-60 h-64  flex flex-col relative items-center rounded-md">
          <h2 className="mt-1 text-xl text-center w-40">ELEKTRİK SU QIZDIRICISI</h2>
          <Image className="mt-2"  src="/elektriksu.png" alt="elektriksu" width={135} height={90} />
          <Link

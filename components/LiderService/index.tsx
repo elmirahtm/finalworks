@@ -2,15 +2,11 @@
 import Image from "next/image";
 import React, { useEffect } from "react";
 
-import AOS from "aos";
-import "aos/dist/aos.css";
+
 
 const LiderService = () => {
   
-useEffect(() => {
-  AOS.init();
-  AOS.refresh();
-}, []);
+
   return (
     <div>
       <div
@@ -19,7 +15,7 @@ useEffect(() => {
       >
         <div className="container m-auto">
           <div className="flex justify-center items-center max-sm:flex-wrap max-sm:text-center max-sm:text-sm  max-lg:flex-wrap max-lg:text-center max-lg:text-sm ">
-            <div  data-aos="fade-right">
+            <div  >
               <span>
                 <Image
                   className="max-sm:w-[545px] max-sm:h-80 max-lg:w-96 max-lg:h-80 max-sm:-ml-3  max-lg:ml-12"
@@ -30,7 +26,7 @@ useEffect(() => {
                 />
               </span>
             </div>
-            <div  data-aos="fade-left" className="ml-6 flex flex-col text-wrap max-sm:ml-`10">
+            <div   className="ml-6 flex flex-col text-wrap max-sm:ml-`10">
               <h1 className="text-2xl max-sm:ml-28
                 max-sm:w-[12ch] font-bold">"Lider Service" haqqında</h1>
               <p className="w-[44rem] max-sm:w-80 max-sm:text-justify max-lg:w-80 max-lg:text-justify max-sm:ml-8 max-lg:ml-10">

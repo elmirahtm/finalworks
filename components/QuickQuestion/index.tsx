@@ -9,7 +9,7 @@ const QuickQuestion = () => {
           {/* <div className="bg-[url('/bg.png')] bg-no-repeat w-full h-[45rem] mt-8 mb-10 max-sm:mb-96"> */}
           <div className="container m-auto max-sm:ml-3">
             <div className="flex justify-center items-center gap-32 mb-40  max-sm:block max-sm:p-5 ">
-              <div>
+              <div data-aos="zoom-in">
                 <span>
                   <Image
                     className=" relative mt-10 "
@@ -28,7 +28,7 @@ const QuickQuestion = () => {
                 </span>
               </div>
 
-              <div className="w-[49%]">
+              <div data-aos="zoom-in-up" className="w-[49%]">
                 <div className="">
                   <div>
                     <h1 className="font-bold text-3xl mb-5 mt-10  max-sm:pt-28 max-sm:w-[15rem]">
