@@ -29,7 +29,7 @@ const Haqqımızda = () => {
       </div>
 
       <div>
-        <div className='bg-[url("/bg.png")] w-full -mt-28 h-[209rem] mb-10 max-sm:h-[240rem]'>
+        <div >
           <div>
             <div className="container m-auto max-sm:ml-0 ">
               <div className="bg-white w-[1060px] h-[1150px] max-sm:h-[1222px] mb-20 -mt-10  m-auto shadow-xl p-5 max-sm:mb-20 max-sm:w-[30rem] max-lg:w-[30rem] max-xl:w-[1007px] max-sm:m-auto max-sm:pt-3">
@@ -61,7 +61,7 @@ const Haqqımızda = () => {
               </div>
             </div>
 
-            <div className="max-sm:mt-40 mb-20">
+            <div className="max-sm:-mt-48 mb-20">
               <div className="bg-cyan-900 w-full h-[42rem] max-sm:h-[21rem]">
                 <h1 className=" text-center text-2xl text-slate-50 p-4 ">
                   Servis Məntəqələrimiz
@@ -72,7 +72,7 @@ const Haqqımızda = () => {
               </div>
             </div>
 
-            <div>
+            <div >
               <Link href={"tel:+994 12 565-1-565"}>
                 {" "}
                 <div className="bg-blue-600 text-slate-50 rounded-lg w-52 h-12 text-center m-auto pt-2 mt-7">
@@ -83,7 +83,7 @@ const Haqqımızda = () => {
           </div>
         </div>
 
-        <div>
+        <div className="mt-48 ">
           <Footer />
         </div>
       </div>

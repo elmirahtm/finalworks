@@ -13,7 +13,7 @@ const LiderService = () => {
             <div>
               <span>
                 <Image
-                  className="max-sm:w-[545px] max-sm:h-80 max-lg:w-96 max-lg:h-80 max-sm:m-auto max-lg:ml-12"
+                  className="max-sm:w-[545px] max-sm:h-80 max-lg:w-96 max-lg:h-80 max-sm:-ml-3  max-lg:ml-12"
                   src="/haqqindaimage.png"
                   alt="image"
                   width={445}
@@ -21,7 +21,7 @@ const LiderService = () => {
                 />
               </span>
             </div>
-            <div className="ml-6 flex flex-col text-wrap">
+            <div className="ml-6 flex flex-col text-wrap max-sm:ml-`10">
               <h1 className="text-2xl max-sm:ml-28
                 max-sm:w-[12ch] font-bold">"Lider Service" haqqında</h1>
               <p className="w-[44rem] max-sm:w-80 max-sm:text-justify max-lg:w-80 max-lg:text-justify max-sm:ml-8 max-lg:ml-10">

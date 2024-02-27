@@ -81,7 +81,7 @@ const MasterConnect = () => {
                   </div>
                 </div>
 
-                <div className="bg-blue-700  w-[40%] h-[22.8rem] p-2  mt-10 text-white  max-sm:-mt-28 max-sm:w-[30rem] max-sm:h-[29rem] max-lg:h-[23.4rem] max-lg:w-full max-xl:h-[20rem] ">
+                <div className="bg-blue-700  w-[40%] h-[22.8rem] p-2  mt-10 text-white  max-sm:-mt-28 max-sm:w-[30rem] max-sm:h-[29rem] max-lg:h-[23.4rem] max-lg:w-full max-xl:h-[20.2rem] ">
                   <h1 className="text-3xl p-5">Əlaqə</h1>
                   <div className=" container m-auto max-sm:-flex max-sm:flex-col max-sm:justify-center max-sm:ml-28 ">
                   <span className="flex m-5 ">
