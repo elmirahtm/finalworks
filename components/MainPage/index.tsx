@@ -8,7 +8,7 @@ import QuickQuestion from "../QuickQuestion";
 import MasterConnect from "../MasterConnect";
 import Brends from "../Brends";
 import Brends2 from "../Brends2";
-import RepairInstall from "../Repairİnstall";
+import RepairInstall from "../RepairInstall";
 
 const MainPage = () => {
   return (
