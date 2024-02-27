@@ -26,7 +26,7 @@ const Çatdırılma = () => {
 
       <div className="container m-auto max-sm:ml-9">
         <div>
-          <div className="bg-white w-[1060px] h-[840px] m-auto shadow-xl p-5 max-sm:w-[24rem] max-sm:text-center  max-lg:w-[39rem] max-sm:pt-3 max-xl:w-[1010px]">
+          <div className="bg-white w-[1060px] h-[840px] -mt-12 m-auto shadow-xl p-5 max-sm:w-[26rem] max-sm:text-center  max-lg:w-[39rem] max-sm:pt-3 max-xl:w-[1010px]">
             <Image
               className="m-auto "
               src="/solitoncar.png"
@@ -36,12 +36,12 @@ const Çatdırılma = () => {
             />
             <div className=" p-2 ml-5 ">
               <h1 className="font-bold text-2xl mt-2">Çatdırılma</h1>
-              <p className="w-[63rem] mt-3 max-sm:w-[15rem] max-sm:ml-8 max-lg:w-[30rem] max-lg:text-center max-lg:-ml-10 max-xl:w-[50rem]">
+              <p className="w-[63rem] mt-3 max-sm:w-[17rem] max-sm:ml-8 max-lg:w-[35rem]  max-lg:-ml-4 max-xl:w-[50rem]">
                 "Soliton Service" Soliton mağazalar şəbəkəsindən satılan məişət
                 əşyalarının Bakı və Abşeron yarımadasina 72 saat ərzində
                 çatdırılasını təmin edir.
               </p>
-              <p className="w-[65rem] mt-5  max-sm:w-[15rem] max-sm:ml-8   max-lg:w-[30rem] max-lg:text-center max-lg:-ml-10 max-xl:w-[60rem]">
+              <p className="w-[65rem] mt-5  max-sm:w-[17rem] max-sm:ml-8   max-lg:w-[35rem]   max-lg:-ml-4 max-xl:w-[60rem]">
                 Çatdırılma xidməti həftənin bütün günləri fəaliyyət
                 göstərir."Soliton Service" əməkdaşları müştərilərlə əlaqə
                 saxlayaraq uyğun zaman ərzində məhsulu ünvana çatdırırlar.Alınan
