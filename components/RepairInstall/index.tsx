@@ -21,9 +21,9 @@ const RepairInstall = () => {
 
             <div className="">
               <span className=" flex justify-evenly items-center gap-10 flex-wrap ">
-                <span className=" max-sm:m-auto max-lg:m-auto max-xl:m-auto">
+                {/* <span className=" max-sm:m-auto max-lg:m-auto max-xl:m-auto">
                   <IoIosArrowBack />
-                </span>
+                </span> */}
                 <div>
                   <Card />
                   <div>
@@ -36,9 +36,9 @@ const RepairInstall = () => {
                   </div>
                 </div>
 
-                <span className=" max-sm:m-auto max-lg:m-auto max-xl:m-auto">
+                {/* <span className=" max-sm:m-auto max-lg:m-auto max-xl:m-auto">
                   <IoIosArrowForward className="mb-6" />
-                </span>
+                </span> */}
               </span>
             </div>
           </div>
@@ -49,9 +49,9 @@ const RepairInstall = () => {
             </h5>
 
             <span className=" flex justify-evenly items-center gap-10 flex-wrap ">
-              <span className=" max-sm:m-auto max-lg:m-auto max-xl:m-auto">
+              {/* <span className=" max-sm:m-auto max-lg:m-auto max-xl:m-auto">
                 <IoIosArrowBack className="mt-5" />
-              </span>
+              </span> */}
               <div>
                 <Card2 />
                 <div>
@@ -64,9 +64,9 @@ const RepairInstall = () => {
                 </div>
               </div>
 
-              <span className="max-sm:m-auto max-lg:m-auto max-xl:m-auto ">
+              {/* <span className="max-sm:m-auto max-lg:m-auto max-xl:m-auto ">
                 <IoIosArrowForward />
-              </span>
+              </span> */}
             </span>
           </div>
         </div>
