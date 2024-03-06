@@ -7,11 +7,11 @@ import { HiOutlineMail } from "react-icons/hi";
 import { TbMapPin } from "react-icons/tb";
 
 const MasterConnect = () => {
-  const router = useRouter();
-  const handlesubmit = (e: any) => {
-    e.preventDefault();
-    router.push("/order");
-  };
+  // const router = useRouter();
+  // const handlesubmit = (e: any) => {
+  //   e.preventDefault();
+  //   router.push("/order");
+  // };
   return (
     <div>
       <div>
@@ -27,7 +27,9 @@ const MasterConnect = () => {
                     est nulla tellus pharetra egestas.
                   </p>
                   <form
-                    onSubmit={handlesubmit}
+                  action={"https://getform.io/f/zaxmkdob"}
+                  method="POST"
+                    // onSubmit={handlesubmit}
                     className="max-sm:flex max-sm:flex-col max-sm:justify-center max-lg:flex max-lg:flex-col   max-xl:flex-col "
                   >
                     <div className="flex gap-9 mt-5 max-sm:flex-col max-lg:flex-col ">
@@ -37,6 +39,7 @@ const MasterConnect = () => {
                           className="border-b-2 border-slate-300 bg-transparent max-sm:w-[15rem] "
                           type="text"
                           placeholder="*Adınız və Soyadınız"
+                          name="name"
                         />
                       </div>
                       <div>
@@ -45,7 +48,7 @@ const MasterConnect = () => {
                           className="border-b-2 border-slate-300 bg-transparent max-sm:w-[15rem]"
                           type="number"
                           placeholder="*Telefon nömrəniz"
-                          name=""
+                          name="number"
                           id=""
                         />
                       </div>
@@ -58,6 +61,7 @@ const MasterConnect = () => {
                           className="border-b-2 border-slate-300 bg-transparent max-sm:w-[15rem] max-lg:w-[18rem]"
                           type="text"
                           placeholder="Sifariş etmək istədiyiniz xidməti seçin"
+                          name="message"
                         />
                       </div>
                       <div>
@@ -67,12 +71,13 @@ const MasterConnect = () => {
                           className="border-b-2 border-slate-300 bg-transparent max-sm:w-[15rem]"
                           type="text"
                           placeholder="Sifariş haqqında məlumat"
+                          name="message"
                         />
                       </div>
                     </div>
 
                     <div className="max-lg:p-3">
-                      <button className="bg-blue-600 text-slate-50  rounded-lg w-52 h-12 text-center p-2 mt-7 max-sm:m-auto max-lg:m-auto ">
+                      <button type="submit" className="bg-blue-600 text-slate-50  rounded-lg w-52 h-12 text-center p-2 mt-7 max-sm:m-auto max-lg:m-auto ">
                         Sifariş et
                       </button>
                     </div>
