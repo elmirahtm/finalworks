@@ -1,8 +1,14 @@
 "use client";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import Image from "next/image";
 import React, { useEffect } from "react";
 
 const LiderService = () => {
+  useEffect(() => {
+    Aos.init();
+    Aos.refresh();
+  }, []);
   return (
     <div>
       <div
@@ -12,7 +18,7 @@ const LiderService = () => {
         <div className="container m-auto">
           <div className="flex justify-center items-center max-sm:flex-wrap max-sm:text-center max-sm:text-sm  max-lg:flex-wrap max-lg:text-center max-lg:text-sm ">
             <div>
-              <span>
+              <span data-aos="zoom-in">
                 <Image
                   className="max-sm:w-[545px] max-sm:h-80 max-lg:w-96 max-lg:h-80 max-sm:-ml-3  max-lg:ml-12"
                   src="/haqqindaimage.png"
@@ -42,7 +48,7 @@ const LiderService = () => {
               </p>
               <span>
                 <div className="flex max-sm:mt-8 ">
-                  <span className="mr-7 max-sm:hidden max-lg:hidden">
+                  <span  className="mr-7 max-sm:hidden max-lg:hidden">
                     <Image
                       className="bg-slate-300  p-2 w-10 h-10 rounded-xl mt-3 "
                       src="/setting.png"
